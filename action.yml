@@ -1,0 +1,31 @@
+name: 'Agent Advisory Gate'
+description: 'Fail the PR when your mcp.json / claude_desktop_config.json uses an MCP server with a known security advisory.'
+author: 'elaysuu'
+branding:
+  icon: 'shield'
+  color: 'red'
+inputs:
+  config-paths:
+    description: 'Extra MCP config files to scan (comma or newline separated), in addition to mcp.json, .mcp.json, .cursor/mcp.json, .vscode/mcp.json, claude_desktop_config.json'
+    required: false
+    default: ''
+  license-key:
+    description: 'Agent Advisory Gate Pro license key (store as a secret). Empty = free tier.'
+    required: false
+    default: ''
+  fail-on:
+    description: 'Minimum severity that fails the job. Free: HIGH (or CRITICAL). Pro: any of LOW, MEDIUM, HIGH, CRITICAL (default LOW).'
+    required: false
+    default: ''
+  sarif-file:
+    description: 'Pro: path of the SARIF file to write'
+    required: false
+    default: 'agent-advisory-gate.sarif'
+outputs:
+  tier: { description: 'free or pro' }
+  advisories: { description: 'Number of advisories reported' }
+  failing: { description: 'Number of findings at or above the threshold' }
+  sarif-file: { description: 'Pro: written SARIF path' }
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
