@@ -1,0 +1,51 @@
+TAP version 13
+# Subtest: vulnerable fixture fails (free) with real GHSA for mcp-remote
+ok 1 - vulnerable fixture fails (free) with real GHSA for mcp-remote
+  ---
+  duration_ms: 361.696916
+  ...
+# Subtest: vulnerable fixture, pro tier: all severities + fixed versions + SARIF
+ok 2 - vulnerable fixture, pro tier: all severities + fixed versions + SARIF
+  ---
+  duration_ms: 296.954637
+  ...
+# Subtest: clean fixture passes
+ok 3 - clean fixture passes
+  ---
+  duration_ms: 113.784344
+  ...
+# Subtest: OSV down => curated map still catches it
+ok 4 - OSV down => curated map still catches it
+  ---
+  duration_ms: 2.283647
+  ...
+# Subtest: extracts npm/uvx/pipx/docker packages
+ok 5 - extracts npm/uvx/pipx/docker packages
+  ---
+  duration_ms: 2.256362
+  ...
+# Subtest: jsonc + ranges
+ok 6 - jsonc + ranges
+  ---
+  duration_ms: 0.631929
+  ...
+# Subtest: pro config rules on hygiene fixture
+ok 7 - pro config rules on hygiene fixture
+  ---
+  duration_ms: 1.686006
+  ...
+# Subtest: license: valid, cancelled, refunded, invalid, unreachable
+ok 8 - license: valid, cancelled, refunded, invalid, unreachable
+  ---
+  duration_ms: 1.863593
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8123.807329
+tests exit=0

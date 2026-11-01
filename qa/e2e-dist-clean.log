@@ -1,0 +1,9 @@
+## Agent Advisory Gate — ✅ passing
+Tier: **free** · fail threshold: **HIGH** · configs: 1 · MCP servers: 1
+
+No known advisories for the MCP servers found.
+
+_Free tier shows CRITICAL/HIGH advisories. Pro adds all severities, config-safety rules, SARIF and fix versions._
+
+<sub>Data: [OSV.dev](https://osv.dev) and the AKRENON Security MCP Security Vulnerabilities Dataset (CC BY 4.0).</sub>
+exit=0

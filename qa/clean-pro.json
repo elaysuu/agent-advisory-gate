@@ -1,0 +1,25 @@
+{
+  "tier": "pro",
+  "minSeverity": "LOW",
+  "files": [
+    {
+      "file": ".cursor/mcp.json",
+      "servers": 1
+    }
+  ],
+  "servers": [
+    {
+      "name": "remote-bridge",
+      "file": ".cursor/mcp.json",
+      "ecosystem": "npm",
+      "package": "mcp-remote",
+      "version": "0.1.16",
+      "url": null
+    }
+  ],
+  "advisories": [],
+  "hiddenBelowHigh": 0,
+  "rules": [],
+  "failing": 0,
+  "osvError": null
+}

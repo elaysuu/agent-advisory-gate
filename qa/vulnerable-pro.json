@@ -1,0 +1,94 @@
+{
+  "tier": "pro",
+  "minSeverity": "LOW",
+  "files": [
+    {
+      "file": ".mcp.json",
+      "servers": 2
+    }
+  ],
+  "servers": [
+    {
+      "name": "remote-bridge",
+      "file": ".mcp.json",
+      "ecosystem": "npm",
+      "package": "mcp-remote",
+      "version": "0.1.15",
+      "url": null
+    },
+    {
+      "name": "files",
+      "file": ".mcp.json",
+      "ecosystem": "npm",
+      "package": "@modelcontextprotocol/server-filesystem",
+      "version": "0.6.2",
+      "url": null
+    }
+  ],
+  "advisories": [
+    {
+      "id": "GHSA-6xpm-ggf7-wc3p",
+      "aliases": [
+        "CVE-2025-6514"
+      ],
+      "summary": "mcp-remote exposed to OS command injection via untrusted MCP server connections",
+      "severity": "CRITICAL",
+      "fixed": [
+        "0.1.16"
+      ],
+      "url": "https://osv.dev/vulnerability/GHSA-6xpm-ggf7-wc3p",
+      "source": "OSV",
+      "hasFix": true,
+      "server": "remote-bridge",
+      "file": ".mcp.json",
+      "line": 3,
+      "package": "mcp-remote",
+      "ecosystem": "npm",
+      "version": "0.1.15"
+    },
+    {
+      "id": "GHSA-hc55-p739-j48w",
+      "aliases": [
+        "CVE-2025-53110"
+      ],
+      "summary": "@modelcontextprotocol/server-filesystem vulnerability allows for path validation bypass via colliding path prefix",
+      "severity": "HIGH",
+      "fixed": [
+        "2025.7.1"
+      ],
+      "url": "https://osv.dev/vulnerability/GHSA-hc55-p739-j48w",
+      "source": "OSV",
+      "hasFix": true,
+      "server": "files",
+      "file": ".mcp.json",
+      "line": 4,
+      "package": "@modelcontextprotocol/server-filesystem",
+      "ecosystem": "npm",
+      "version": "0.6.2"
+    },
+    {
+      "id": "GHSA-q66q-fx2p-7w4m",
+      "aliases": [
+        "CVE-2025-53109"
+      ],
+      "summary": "@modelcontextprotocol/server-filesystem allows for path validation bypass via prefix matching and symlink handling",
+      "severity": "HIGH",
+      "fixed": [
+        "2025.7.1"
+      ],
+      "url": "https://osv.dev/vulnerability/GHSA-q66q-fx2p-7w4m",
+      "source": "OSV",
+      "hasFix": true,
+      "server": "files",
+      "file": ".mcp.json",
+      "line": 4,
+      "package": "@modelcontextprotocol/server-filesystem",
+      "ecosystem": "npm",
+      "version": "0.6.2"
+    }
+  ],
+  "hiddenBelowHigh": 0,
+  "rules": [],
+  "failing": 3,
+  "osvError": null
+}
