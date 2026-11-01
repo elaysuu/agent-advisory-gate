@@ -9,8 +9,8 @@
 //   "If one of these fields is not null, you can disable the license and terminate access."
 //   Invalid key => 404 with { success:false, message }.
 const GUMROAD_VERIFY_URL = 'https://api.gumroad.com/v2/licenses/verify';
-// TODO(after Gumroad product exists): replace with the product_id from the License key block.
-const GUMROAD_PRODUCT_ID = 'REPLACE_WITH_GUMROAD_PRODUCT_ID';
+// Gumroad product: Agent Advisory Gate Pro (https://setrov.gumroad.com/l/zdojns)
+const GUMROAD_PRODUCT_ID = 'T7DBQBWWCKR32ph9driJvQ==';
 
 async function verifyLicense(key, { fetchImpl = fetch, productId = GUMROAD_PRODUCT_ID, timeoutMs = 8000 } = {}) {
   if (!key) return { tier: 'free', reason: 'no license-key input' };

@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { scan, summaryMarkdown, toSarif } = require('./scan');
 const { verifyLicense } = require('./license');
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 // Read the map from the repo's data/ at runtime (not bundled) so the daily refresh commit takes effect immediately.
 const DATA_PARTS = ['data', 'mcp-advisories.json'];
 const dataFile = () => path.resolve(__dirname, '..', DATA_PARTS.join(path.sep));
