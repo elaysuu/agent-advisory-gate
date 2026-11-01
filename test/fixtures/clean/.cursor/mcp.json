@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "remote-bridge": { "command": "npx", "args": ["-y", "mcp-remote@0.1.16", "https://mcp.example.com/sse"] }
+  }
+}
