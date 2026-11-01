@@ -1,6 +1,6 @@
 {
   "name": "agent-advisory-gate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub Action: fail PRs whose MCP configs use servers with known security advisories.",
   "main": "dist/index.js",
   "license": "MIT",

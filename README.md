@@ -29,7 +29,20 @@ Full workflow: [`examples/agent-advisory-gate.yml`](examples/agent-advisory-gate
 | SARIF for GitHub code scanning | – | ✅ |
 | Job summary + PR annotations | ✅ | ✅ |
 
-Get Pro: **[Gumroad link — added at launch]**. Put the key in a repo secret `AAG_LICENSE`.
+## Pro
+
+**[Get Agent Advisory Gate Pro on Gumroad](https://setrov.gumroad.com/l/zdojns)**: $9/month or $79/year.
+
+Setup:
+1. Buy the membership. Gumroad emails you a license key.
+2. In your repo, add it as a secret named `AAG_LICENSE` (Settings → Secrets and variables → Actions).
+3. Pass it to the action:
+   ```yaml
+   - uses: elaysuu/agent-advisory-gate@v1
+     with:
+       license-key: ${{ secrets.AAG_LICENSE }}
+   ```
+An invalid, expired, or unreachable license never fails your build. The action falls back to the free tier and says why in the job summary.
 
 Unpinned packages (`npx -y foo`) run the latest release, so for those the gate only reports advisories with **no fixed
 version yet**. Pin versions to get exact matching.
