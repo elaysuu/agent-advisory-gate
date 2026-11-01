@@ -1,0 +1,22 @@
+# .github/workflows/agent-advisory-gate.yml
+name: agent-advisory-gate
+on:
+  pull_request:
+    paths: ['**/mcp.json', '**/.mcp.json', '**/claude_desktop_config.json']
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  security-events: write   # only needed for Pro SARIF upload
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: aag
+        uses: elaysuu/agent-advisory-gate@v1
+        with:
+          license-key: ${{ secrets.AAG_LICENSE }}   # optional: Pro
+      - if: always() && steps.aag.outputs.tier == 'pro'
+        uses: github/codeql-action/upload-sarif@v3
+        with: { sarif_file: agent-advisory-gate.sarif }
