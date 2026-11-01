@@ -1,0 +1,5157 @@
+{
+ "generated": "2026-11-01T07:22:04.275Z",
+ "sources": [
+  {
+   "name": "AKRENON Security, MCP Security Vulnerabilities Dataset 2026 (D-001)",
+   "url": "https://data.akrenon.com/mcp-advisories/",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "changes": "Filtered to npm/PyPI, non-withdrawn, non-excluded rows; fields reduced."
+  }
+ ],
+ "count": 314,
+ "advisories": [
+  {
+   "id": "GHSA-3xm7-qw7j-qc8v",
+   "aliases": [
+    "GHSA-3xm7-qw7j-qc8v",
+    "CVE-2026-33060"
+   ],
+   "ecosystem": "npm",
+   "package": "@aborruso/ckan-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "SSRF in @aborruso/ckan-mcp-server via base_url allows access to internal networks",
+   "url": "https://osv.dev/vulnerability/GHSA-3xm7-qw7j-qc8v",
+   "published": "2026-03-18T12:59:42Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.85"
+  },
+  {
+   "id": "GHSA-6f9w-9hf2-5rg3",
+   "aliases": [
+    "GHSA-6f9w-9hf2-5rg3",
+    "CVE-2026-73844"
+   ],
+   "ecosystem": "npm",
+   "package": "@aborruso/ckan-mcp-server",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "CKAN MCP Server: Information disclosure via verbose error reflection",
+   "url": "https://osv.dev/vulnerability/GHSA-6f9w-9hf2-5rg3",
+   "published": "2026-09-03T14:49:10Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.112"
+  },
+  {
+   "id": "GHSA-78x9-fhhx-v2g6",
+   "aliases": [
+    "GHSA-78x9-fhhx-v2g6",
+    "CVE-2026-73846"
+   ],
+   "ecosystem": "npm",
+   "package": "@aborruso/ckan-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "CKAN MCP Server: Cache-key canonicalization collision enables cache confusion / poisoning",
+   "url": "https://osv.dev/vulnerability/GHSA-78x9-fhhx-v2g6",
+   "published": "2026-09-03T14:49:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.112"
+  },
+  {
+   "id": "GHSA-798p-78g2-v556",
+   "aliases": [
+    "GHSA-798p-78g2-v556",
+    "CVE-2026-61612"
+   ],
+   "ecosystem": "npm",
+   "package": "@aborruso/ckan-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@aborruso/ckan-mcp-server has SSRF via DNS-name → internal IP — incomplete fix of CVE-2026-53509",
+   "url": "https://osv.dev/vulnerability/GHSA-798p-78g2-v556",
+   "published": "2026-09-22T14:51:20Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.108"
+  },
+  {
+   "id": "GHSA-83x6-42hr-jc76",
+   "aliases": [
+    "GHSA-83x6-42hr-jc76",
+    "CVE-2026-73845"
+   ],
+   "ecosystem": "npm",
+   "package": "@aborruso/ckan-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "CKAN MCP Server: MQA server allowlist bypass via unanchored regex (`isValidMqaServer`)",
+   "url": "https://osv.dev/vulnerability/GHSA-83x6-42hr-jc76",
+   "published": "2026-09-02T14:52:21Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.112"
+  },
+  {
+   "id": "GHSA-g84h-j7jj-x32p",
+   "aliases": [
+    "GHSA-g84h-j7jj-x32p",
+    "CVE-2026-53509"
+   ],
+   "ecosystem": "npm",
+   "package": "@aborruso/ckan-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@aborruso/ckan-mcp-server: SSRF via base_url allows access to internal networks (Potential fix bypass of CVE-2026-33060)",
+   "url": "https://osv.dev/vulnerability/GHSA-g84h-j7jj-x32p",
+   "published": "2026-07-07T19:35:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.106"
+  },
+  {
+   "id": "GHSA-vqff-r82h-9crc",
+   "aliases": [
+    "GHSA-vqff-r82h-9crc",
+    "CVE-2026-76894"
+   ],
+   "ecosystem": "npm",
+   "package": "@aborruso/ckan-mcp-server",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
+   "url": "https://osv.dev/vulnerability/GHSA-vqff-r82h-9crc",
+   "published": "2026-10-16T19:23:48Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.112"
+  },
+  {
+   "id": "GHSA-63gr-g7jc-v8rg",
+   "aliases": [
+    "GHSA-63gr-g7jc-v8rg",
+    "CVE-2026-50287"
+   ],
+   "ecosystem": "npm",
+   "package": "@agenticmail/mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@agenticmail/mcp Missing Authentication for Critical Function",
+   "url": "https://osv.dev/vulnerability/GHSA-63gr-g7jc-v8rg",
+   "published": "2026-06-01T13:58:33Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.9.27"
+  },
+  {
+   "id": "GHSA-694p-3fxc-m92h",
+   "aliases": [
+    "GHSA-694p-3fxc-m92h",
+    "CVE-2025-9654"
+   ],
+   "ecosystem": "npm",
+   "package": "@aiondadotcom/mcp-ssh",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "AiondaDotCom mcp-ssh command injection vulnerability in SSH operations",
+   "url": "https://osv.dev/vulnerability/GHSA-694p-3fxc-m92h",
+   "published": "2025-08-29T15:30:38Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.0"
+  },
+  {
+   "id": "GHSA-p4h8-56qp-hpgv",
+   "aliases": [
+    "GHSA-p4h8-56qp-hpgv"
+   ],
+   "ecosystem": "npm",
+   "package": "@aiondadotcom/mcp-ssh",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "SSH/SCP option injection allowing local RCE in @aiondadotcom/mcp-ssh",
+   "url": "https://osv.dev/vulnerability/GHSA-p4h8-56qp-hpgv",
+   "published": "2026-04-14T00:04:10Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.3.5"
+  },
+  {
+   "id": "GHSA-3ch2-jxxc-v4xf",
+   "aliases": [
+    "GHSA-3ch2-jxxc-v4xf",
+    "CVE-2025-54994"
+   ],
+   "ecosystem": "npm",
+   "package": "@akoskm/create-mcp-server-stdio",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "@akoskm/create-mcp-server-stdio is vulnerable to MCP Server Command Injection through `exec` API",
+   "url": "https://osv.dev/vulnerability/GHSA-3ch2-jxxc-v4xf",
+   "published": "2025-09-08T19:42:34Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.13"
+  },
+  {
+   "id": "GHSA-6f5r-5672-72j7",
+   "aliases": [
+    "GHSA-6f5r-5672-72j7",
+    "CVE-2026-54504"
+   ],
+   "ecosystem": "npm",
+   "package": "@andrea9293/mcp-documentation-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@andrea9293/mcp-documentation-server: Web UI API binds to all interfaces without authentication by default",
+   "url": "https://osv.dev/vulnerability/GHSA-6f5r-5672-72j7",
+   "published": "2026-07-15T23:26:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.13.1"
+  },
+  {
+   "id": "GHSA-6gr2-qh89-hxwm",
+   "aliases": [
+    "GHSA-6gr2-qh89-hxwm",
+    "CVE-2026-50143"
+   ],
+   "ecosystem": "npm",
+   "package": "@apify/actors-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Apify Model Context Protocol (MCP) server: Actor MCP path authority injection leaks Apify token",
+   "url": "https://osv.dev/vulnerability/GHSA-6gr2-qh89-hxwm",
+   "published": "2026-07-01T22:02:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.10.11"
+  },
+  {
+   "id": "GHSA-jwp7-wg77-3w9v",
+   "aliases": [
+    "GHSA-jwp7-wg77-3w9v",
+    "CVE-2026-46341"
+   ],
+   "ecosystem": "npm",
+   "package": "@apify/actors-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Apify Model Context Protocol (MCP) server: Domain Allowlist Bypass in fetch-apify-docs via String Prefix Matching",
+   "url": "https://osv.dev/vulnerability/GHSA-jwp7-wg77-3w9v",
+   "published": "2026-05-19T16:34:34Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.9.21"
+  },
+  {
+   "id": "GHSA-72f3-6w86-7rv3",
+   "aliases": [
+    "GHSA-72f3-6w86-7rv3",
+    "CVE-2026-55605"
+   ],
+   "ecosystem": "npm",
+   "package": "@arikusi/deepseek-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@arikusi/deepseek-mcp-server: Missing Authentication on Self-Hosted HTTP MCP Endpoint",
+   "url": "https://osv.dev/vulnerability/GHSA-72f3-6w86-7rv3",
+   "published": "2026-08-25T18:38:30Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.8.0"
+  },
+  {
+   "id": "GHSA-fh3r-g96v-f578",
+   "aliases": [
+    "GHSA-fh3r-g96v-f578",
+    "CVE-2026-55604"
+   ],
+   "ecosystem": "npm",
+   "package": "@arikusi/deepseek-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@arikusi/deepseek-mcp-server has an Authorization Bypass Through User-Controlled Key",
+   "url": "https://osv.dev/vulnerability/GHSA-fh3r-g96v-f578",
+   "published": "2026-08-25T18:37:27Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.7.0"
+  },
+  {
+   "id": "GHSA-hhfx-wfvq-7g9c",
+   "aliases": [
+    "GHSA-hhfx-wfvq-7g9c",
+    "CVE-2026-26118",
+    "PYSEC-2026-2669"
+   ],
+   "ecosystem": "npm",
+   "package": "@azure/mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
+   "url": "https://osv.dev/vulnerability/GHSA-hhfx-wfvq-7g9c",
+   "published": "2026-03-10T18:31:21Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.0.0-beta.17;1.0.2;2.0.0-beta.17;2.0.0b17;1.0.2"
+  },
+  {
+   "id": "GHSA-qp4c-xg64-7c6x",
+   "aliases": [
+    "GHSA-qp4c-xg64-7c6x",
+    "CVE-2026-32236"
+   ],
+   "ecosystem": "npm",
+   "package": "@backstage/plugin-auth-backend",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "@backstage/plugin-auth-backend: SSRF in experimental CIMD metadata fetch",
+   "url": "https://osv.dev/vulnerability/GHSA-qp4c-xg64-7c6x",
+   "published": "2026-03-12T14:51:02Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.27.1"
+  },
+  {
+   "id": "GHSA-7w99-5wm4-3g79",
+   "aliases": [
+    "GHSA-7w99-5wm4-3g79",
+    "CVE-2026-53518"
+   ],
+   "ecosystem": "npm",
+   "package": "@better-auth/oauth-provider",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
+   "url": "https://osv.dev/vulnerability/GHSA-7w99-5wm4-3g79",
+   "published": "2026-07-07T20:56:35Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.6.11;1.6.11"
+  },
+  {
+   "id": "GHSA-9c83-rr99-vfwj",
+   "aliases": [
+    "GHSA-9c83-rr99-vfwj",
+    "CVE-2026-57442"
+   ],
+   "ecosystem": "npm",
+   "package": "@bitbonsai/mcpvault",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCPVault: PathFilter restricted directories (.git/.obsidian/node_modules) only denied at vault root, not nested",
+   "url": "https://osv.dev/vulnerability/GHSA-9c83-rr99-vfwj",
+   "published": "2026-06-19T21:42:24Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.11.5"
+  },
+  {
+   "id": "GHSA-j99q-93c9-h869",
+   "aliases": [
+    "GHSA-j99q-93c9-h869",
+    "CVE-2026-57441"
+   ],
+   "ecosystem": "npm",
+   "package": "@bitbonsai/mcpvault",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCPVault: PathFilter restricted-directory deny-list bypass via case and trailing dot/space equivalence",
+   "url": "https://osv.dev/vulnerability/GHSA-j99q-93c9-h869",
+   "published": "2026-06-18T14:30:43Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.11.4"
+  },
+  {
+   "id": "GHSA-fm8p-53ww-hf6w",
+   "aliases": [
+    "GHSA-fm8p-53ww-hf6w",
+    "CVE-2026-61742"
+   ],
+   "ecosystem": "npm",
+   "package": "@bytebase/dbhub",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "DBHub HTTP transport DNS rebinding allows unauthenticated browser-origin SQL execution",
+   "url": "https://osv.dev/vulnerability/GHSA-fm8p-53ww-hf6w",
+   "published": "2026-09-24T19:36:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.5"
+  },
+  {
+   "id": "GHSA-mwwr-p57h-56pf",
+   "aliases": [
+    "GHSA-mwwr-p57h-56pf",
+    "CVE-2026-61788"
+   ],
+   "ecosystem": "npm",
+   "package": "@bytebase/dbhub",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@bytebase/dbhub's read-only mode does not prevent database writes",
+   "url": "https://osv.dev/vulnerability/GHSA-mwwr-p57h-56pf",
+   "published": "2026-09-24T19:37:59Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.6"
+  },
+  {
+   "id": "GHSA-rp72-5v5q-2446",
+   "aliases": [
+    "GHSA-rp72-5v5q-2446"
+   ],
+   "ecosystem": "npm",
+   "package": "@cardano402/mcp-server",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "@cardano402/mcp-server missing spending limits, LAN-exposed HTTP transport, and SSRF via catalog.server.url",
+   "url": "https://osv.dev/vulnerability/GHSA-rp72-5v5q-2446",
+   "published": "2026-06-26T21:08:06Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.2"
+  },
+  {
+   "id": "GHSA-4pc9-x2fx-p7vj",
+   "aliases": [
+    "GHSA-4pc9-x2fx-p7vj",
+    "CVE-2025-4143"
+   ],
+   "ecosystem": "npm",
+   "package": "@cloudflare/workers-oauth-provider",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@cloudflare/workers-oauth-provider missing validation of redirect_uri on authorize endpoint",
+   "url": "https://osv.dev/vulnerability/GHSA-4pc9-x2fx-p7vj",
+   "published": "2025-05-01T17:00:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.5"
+  },
+  {
+   "id": "GHSA-qgp8-v765-qxx9",
+   "aliases": [
+    "GHSA-qgp8-v765-qxx9",
+    "CVE-2025-4144"
+   ],
+   "ecosystem": "npm",
+   "package": "@cloudflare/workers-oauth-provider",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@cloudflare/workers-oauth-provider PKCE bypass via downgrade attack",
+   "url": "https://osv.dev/vulnerability/GHSA-qgp8-v765-qxx9",
+   "published": "2025-05-01T17:01:42Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.5"
+  },
+  {
+   "id": "GHSA-8jx2-rhfh-q928",
+   "aliases": [
+    "GHSA-8jx2-rhfh-q928",
+    "CVE-2026-25546"
+   ],
+   "ecosystem": "npm",
+   "package": "@coding-solo/godot-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "godot-mcp has Command Injection via unsanitized projectPath",
+   "url": "https://osv.dev/vulnerability/GHSA-8jx2-rhfh-q928",
+   "published": "2026-02-04T20:02:32Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.1"
+  },
+  {
+   "id": "GHSA-2xhg-73j7-rrgx",
+   "aliases": [
+    "GHSA-2xhg-73j7-rrgx",
+    "CVE-2026-53957"
+   ],
+   "ecosystem": "npm",
+   "package": "@contentful/mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled endpoint",
+   "url": "https://osv.dev/vulnerability/GHSA-2xhg-73j7-rrgx",
+   "published": "2026-08-19T19:17:00Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.7.19;0.4.5"
+  },
+  {
+   "id": "GHSA-3q26-f695-pp76",
+   "aliases": [
+    "GHSA-3q26-f695-pp76",
+    "CVE-2025-53107"
+   ],
+   "ecosystem": "npm",
+   "package": "@cyanheads/git-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@cyanheads/git-mcp-server vulnerable to command injection in several tools",
+   "url": "https://osv.dev/vulnerability/GHSA-3q26-f695-pp76",
+   "published": "2025-06-30T18:50:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.5"
+  },
+  {
+   "id": "GHSA-p7w7-4929-vpj5",
+   "aliases": [
+    "GHSA-p7w7-4929-vpj5"
+   ],
+   "ecosystem": "npm",
+   "package": "@dynatrace-oss/dynatrace-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "`@dynatrace-oss/dynatrace-mcp-server` has Unauthenticated HTTP MCP Tool Invocation",
+   "url": "https://osv.dev/vulnerability/GHSA-p7w7-4929-vpj5",
+   "published": "2026-07-31T16:05:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.0.0"
+  },
+  {
+   "id": "GHSA-pc2w-4mq8-32qw",
+   "aliases": [
+    "GHSA-pc2w-4mq8-32qw"
+   ],
+   "ecosystem": "npm",
+   "package": "@dynatrace-oss/dynatrace-mcp-server",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "@dynatrace-oss/dynatrace-mcp-server's create_dynatrace_notebook missing the human-approval gate",
+   "url": "https://osv.dev/vulnerability/GHSA-pc2w-4mq8-32qw",
+   "published": "2026-07-29T15:36:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.8.7"
+  },
+  {
+   "id": "GHSA-pqh8-p93p-2rx7",
+   "aliases": [
+    "GHSA-pqh8-p93p-2rx7"
+   ],
+   "ecosystem": "npm",
+   "package": "@dynatrace-oss/dynatrace-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@dynatrace-oss/dynatrace-mcp-server has a DQL injection via parameters not documented as DQL",
+   "url": "https://osv.dev/vulnerability/GHSA-pqh8-p93p-2rx7",
+   "published": "2026-07-31T15:56:12Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.1"
+  },
+  {
+   "id": "GHSA-xrmj-5g4g-8987",
+   "aliases": [
+    "GHSA-xrmj-5g4g-8987"
+   ],
+   "ecosystem": "npm",
+   "package": "@dynatrace-oss/dynatrace-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@dynatrace-oss/dynatrace-mcp-server has a workflow template injection via create_workflow_for_notification",
+   "url": "https://osv.dev/vulnerability/GHSA-xrmj-5g4g-8987",
+   "published": "2026-07-31T16:01:07Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.0.0"
+  },
+  {
+   "id": "GHSA-xqv9-qr76-hfq2",
+   "aliases": [
+    "GHSA-xqv9-qr76-hfq2",
+    "CVE-2026-5603"
+   ],
+   "ecosystem": "npm",
+   "package": "@elgentos/magento2-dev-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "@elgentos/magento2-dev-mcp vulnerable to command injection",
+   "url": "https://osv.dev/vulnerability/GHSA-xqv9-qr76-hfq2",
+   "published": "2026-04-06T00:30:24Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-65hm-pwj5-73pw",
+   "aliases": [
+    "GHSA-65hm-pwj5-73pw",
+    "CVE-2025-59333"
+   ],
+   "ecosystem": "npm",
+   "package": "@executeautomation/database-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@executeautomation/database-server does not properly restrict access, bypassing a \"read-only\" mode",
+   "url": "https://osv.dev/vulnerability/GHSA-65hm-pwj5-73pw",
+   "published": "2025-09-16T19:31:56Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "affected": "<= 1.1.0"
+  },
+  {
+   "id": "GHSA-8q49-2h5h-434x",
+   "aliases": [
+    "GHSA-8q49-2h5h-434x"
+   ],
+   "ecosystem": "npm",
+   "package": "@frontmcp/adapters",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "FrontMCP: Server-Side Request Forgery (SSRF) in the OpenAPI adapter spec-change poller",
+   "url": "https://osv.dev/vulnerability/GHSA-8q49-2h5h-434x",
+   "published": "2026-07-24T22:40:00Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.5.6"
+  },
+  {
+   "id": "GHSA-647h-p824-99w7",
+   "aliases": [
+    "GHSA-647h-p824-99w7"
+   ],
+   "ecosystem": "npm",
+   "package": "@grackle-ai/mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@grackle-ai/mcp has a workspace authorization bypass in its knowledge_search MCP tool",
+   "url": "https://osv.dev/vulnerability/GHSA-647h-p824-99w7",
+   "published": "2026-03-25T17:23:11Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.70.2"
+  },
+  {
+   "id": "GHSA-f9ff-5x35-7gfw",
+   "aliases": [
+    "GHSA-f9ff-5x35-7gfw"
+   ],
+   "ecosystem": "npm",
+   "package": "@grackle-ai/mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Grackle: Fail-open authorization in the MCP tool layer lets scoped agents perform cross-task and cross-session mutations (IDOR)",
+   "url": "https://osv.dev/vulnerability/GHSA-f9ff-5x35-7gfw",
+   "published": "2026-07-02T19:35:03Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-c5r6-m4mr-8q5j",
+   "aliases": [
+    "GHSA-c5r6-m4mr-8q5j",
+    "CVE-2026-49856"
+   ],
+   "ecosystem": "npm",
+   "package": "@jshookmcp/jshook",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@jshookmcp/jshook: ICMP probe and traceroute skip local-network SSRF authorization",
+   "url": "https://osv.dev/vulnerability/GHSA-c5r6-m4mr-8q5j",
+   "published": "2026-07-01T18:14:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.3.2"
+  },
+  {
+   "id": "GHSA-382c-vx95-w3p5",
+   "aliases": [
+    "GHSA-382c-vx95-w3p5"
+   ],
+   "ecosystem": "npm",
+   "package": "@jsonbored/gittensory-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Gittensory: Missing contributor-scoped access control on profile endpoint and MCP tool leaks miner financial data",
+   "url": "https://osv.dev/vulnerability/GHSA-382c-vx95-w3p5",
+   "published": "2026-07-09T13:44:51Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-v52w-28xh-v562",
+   "aliases": [
+    "GHSA-v52w-28xh-v562"
+   ],
+   "ecosystem": "npm",
+   "package": "@kozou/mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Kozou: Unauthenticated MCP HTTP server and bundled dev-stack hardening (DNS-rebinding, request-body limits, read-only reads, default network exposure)",
+   "url": "https://osv.dev/vulnerability/GHSA-v52w-28xh-v562",
+   "published": "2026-06-19T20:47:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.8.1;1.8.1;1.8.1;1.8.1"
+  },
+  {
+   "id": "GHSA-xh92-rqrq-227v",
+   "aliases": [
+    "GHSA-xh92-rqrq-227v",
+    "CVE-2025-61685"
+   ],
+   "ecosystem": "npm",
+   "package": "@mastra/mcp-docs-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Mastra Docs MCP Server `@mastra/mcp-docs-server` Leads to Information Exposure",
+   "url": "https://osv.dev/vulnerability/GHSA-xh92-rqrq-227v",
+   "published": "2025-09-24T20:05:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.17.0"
+  },
+  {
+   "id": "GHSA-232v-j27c-5pp6",
+   "aliases": [
+    "GHSA-232v-j27c-5pp6",
+    "CVE-2026-23744"
+   ],
+   "ecosystem": "npm",
+   "package": "@mcpjam/inspector",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "REC in MCPJam inspector due to HTTP Endpoint exposes",
+   "url": "https://osv.dev/vulnerability/GHSA-232v-j27c-5pp6",
+   "published": "2026-01-16T21:15:35Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.4.3"
+  },
+  {
+   "id": "GHSA-3p2m-h2v6-g9mx",
+   "aliases": [
+    "GHSA-3p2m-h2v6-g9mx",
+    "CVE-2026-33989"
+   ],
+   "ecosystem": "npm",
+   "package": "@mobilenext/mobile-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@mobilenext/mobile-mcp alllows arbitrary file write via Path Traversal in mobile screen capture tools",
+   "url": "https://osv.dev/vulnerability/GHSA-3p2m-h2v6-g9mx",
+   "published": "2026-03-27T19:13:17Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.49"
+  },
+  {
+   "id": "GHSA-5qhv-x9j4-c3vm",
+   "aliases": [
+    "GHSA-5qhv-x9j4-c3vm",
+    "CVE-2026-35394"
+   ],
+   "ecosystem": "npm",
+   "package": "@mobilenext/mobile-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@mobilenext/mobile-mcp: Arbitrary Android Intent Execution via mobile_open_url",
+   "url": "https://osv.dev/vulnerability/GHSA-5qhv-x9j4-c3vm",
+   "published": "2026-04-04T05:37:10Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.50"
+  },
+  {
+   "id": "GHSA-7f8r-222p-6f5g",
+   "aliases": [
+    "GHSA-7f8r-222p-6f5g",
+    "CVE-2025-49596"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/inspector",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "MCP Inspector proxy server lacks authentication between the Inspector client and proxy",
+   "url": "https://osv.dev/vulnerability/GHSA-7f8r-222p-6f5g",
+   "published": "2025-06-13T22:15:26Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.14.1"
+  },
+  {
+   "id": "GHSA-g9hg-qhmf-q45m",
+   "aliases": [
+    "GHSA-g9hg-qhmf-q45m",
+    "CVE-2025-58444"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/inspector",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Inspector is Vulnerable to Potential Command Execution via XSS When Connecting to an Untrusted MCP Server",
+   "url": "https://osv.dev/vulnerability/GHSA-g9hg-qhmf-q45m",
+   "published": "2025-09-08T21:14:23Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.16.6"
+  },
+  {
+   "id": "GHSA-22jm-h49p-29qw",
+   "aliases": [
+    "GHSA-22jm-h49p-29qw",
+    "CVE-2026-111767"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP TypeScript SDK: Experimental tasks were not tied to the session that created them",
+   "url": "https://osv.dev/vulnerability/GHSA-22jm-h49p-29qw",
+   "published": "2026-10-20T18:26:54Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.32.0"
+  },
+  {
+   "id": "GHSA-345p-7cg4-v4c7",
+   "aliases": [
+    "GHSA-345p-7cg4-v4c7",
+    "CVE-2026-25536"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@modelcontextprotocol/sdk has cross-client data leak via shared server/transport instance reuse",
+   "url": "https://osv.dev/vulnerability/GHSA-345p-7cg4-v4c7",
+   "published": "2026-02-04T20:04:16Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.26.0"
+  },
+  {
+   "id": "GHSA-46jr-4wx8-v453",
+   "aliases": [
+    "GHSA-46jr-4wx8-v453",
+    "CVE-2026-111768"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation",
+   "url": "https://osv.dev/vulnerability/GHSA-46jr-4wx8-v453",
+   "published": "2026-10-20T20:06:35Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.32.0;2.3.0"
+  },
+  {
+   "id": "GHSA-6prh-2h8m-c8cw",
+   "aliases": [
+    "GHSA-6prh-2h8m-c8cw",
+    "CVE-2026-111769"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies",
+   "url": "https://osv.dev/vulnerability/GHSA-6prh-2h8m-c8cw",
+   "published": "2026-10-20T18:26:30Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.32.0;2.3.0"
+  },
+  {
+   "id": "GHSA-6qxp-vccf-f47h",
+   "aliases": [
+    "GHSA-6qxp-vccf-f47h",
+    "CVE-2026-104850"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP TypeScript SDK: OAuth client could send credentials to an authorization server chosen by the MCP server",
+   "url": "https://osv.dev/vulnerability/GHSA-6qxp-vccf-f47h",
+   "published": "2026-10-06T15:35:44Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.31.0;2.2.0"
+  },
+  {
+   "id": "GHSA-8r9q-7v3j-jr4g",
+   "aliases": [
+    "GHSA-8r9q-7v3j-jr4g",
+    "CVE-2026-0621"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Anthropic's MCP TypeScript SDK has a ReDoS vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-8r9q-7v3j-jr4g",
+   "published": "2026-01-05T21:30:33Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.25.2"
+  },
+  {
+   "id": "GHSA-rvq5-wwqv-78pq",
+   "aliases": [
+    "GHSA-rvq5-wwqv-78pq",
+    "CVE-2026-111771"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP TypeScript SDK: Server bearer authentication accepted tokens issued for another service",
+   "url": "https://osv.dev/vulnerability/GHSA-rvq5-wwqv-78pq",
+   "published": "2026-10-20T19:43:36Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.32.0;2.3.0;2.0.2;2.3.1"
+  },
+  {
+   "id": "GHSA-w48q-cv73-mx4w",
+   "aliases": [
+    "GHSA-w48q-cv73-mx4w",
+    "CVE-2025-66414"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Model Context Protocol (MCP) TypeScript SDK does not enable DNS rebinding protection by default",
+   "url": "https://osv.dev/vulnerability/GHSA-w48q-cv73-mx4w",
+   "published": "2025-12-02T16:51:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.24.0"
+  },
+  {
+   "id": "GHSA-hc55-p739-j48w",
+   "aliases": [
+    "GHSA-hc55-p739-j48w",
+    "CVE-2025-53110"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/server-filesystem",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@modelcontextprotocol/server-filesystem vulnerability allows for path validation bypass via colliding path prefix",
+   "url": "https://osv.dev/vulnerability/GHSA-hc55-p739-j48w",
+   "published": "2025-07-01T20:14:00Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2025.7.1"
+  },
+  {
+   "id": "GHSA-q66q-fx2p-7w4m",
+   "aliases": [
+    "GHSA-q66q-fx2p-7w4m",
+    "CVE-2025-53109"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/server-filesystem",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@modelcontextprotocol/server-filesystem allows for path validation bypass via prefix matching and symlink handling",
+   "url": "https://osv.dev/vulnerability/GHSA-q66q-fx2p-7w4m",
+   "published": "2025-07-01T20:13:56Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2025.7.1"
+  },
+  {
+   "id": "GHSA-jm63-cq47-j5jp",
+   "aliases": [
+    "GHSA-jm63-cq47-j5jp",
+    "CVE-2026-111770"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP  TypeScript server SDK: Shared transport or server instances delivered one HTTP client's messages to another",
+   "url": "https://osv.dev/vulnerability/GHSA-jm63-cq47-j5jp",
+   "published": "2026-10-20T20:07:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.3.0"
+  },
+  {
+   "id": "GHSA-wx4p-jr66-jfp9",
+   "aliases": [
+    "GHSA-wx4p-jr66-jfp9",
+    "CVE-2026-5602"
+   ],
+   "ecosystem": "npm",
+   "package": "@nor2/heim-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "@nor2/heim-mcp vulnerable to command injection",
+   "url": "https://osv.dev/vulnerability/GHSA-wx4p-jr66-jfp9",
+   "published": "2026-04-06T00:30:24Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-49mq-fc6q-3h46",
+   "aliases": [
+    "GHSA-49mq-fc6q-3h46",
+    "CVE-2026-55157"
+   ],
+   "ecosystem": "npm",
+   "package": "@ooples/token-optimizer-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Token Optimizer MCP: OS command injection in smart_user via username in get-user-info",
+   "url": "https://osv.dev/vulnerability/GHSA-49mq-fc6q-3h46",
+   "published": "2026-08-14T21:42:06Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "5.1.0"
+  },
+  {
+   "id": "GHSA-76pc-mqxp-3rq5",
+   "aliases": [
+    "GHSA-76pc-mqxp-3rq5",
+    "CVE-2026-55156"
+   ],
+   "ecosystem": "npm",
+   "package": "@ooples/token-optimizer-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Token Optimizer MCP: Unauthenticated Path Traversal in Dashboard Session Log API Endpoints",
+   "url": "https://osv.dev/vulnerability/GHSA-76pc-mqxp-3rq5",
+   "published": "2026-08-14T21:43:54Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "5.1.0"
+  },
+  {
+   "id": "GHSA-xrxf-jgv3-qmrm",
+   "aliases": [
+    "GHSA-xrxf-jgv3-qmrm",
+    "CVE-2025-61260"
+   ],
+   "ecosystem": "npm",
+   "package": "@openai/codex",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "OpenAI Codex CLI enables code execution through malicious MCP (Model Context Protocol) configuration files",
+   "url": "https://osv.dev/vulnerability/GHSA-xrxf-jgv3-qmrm",
+   "published": "2026-04-14T15:30:34Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-mwr6-3gp8-9jmj",
+   "aliases": [
+    "GHSA-mwr6-3gp8-9jmj",
+    "CVE-2026-22785"
+   ],
+   "ecosystem": "npm",
+   "package": "@orval/mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "orval MCP client is vulnerable to a code injection attack.",
+   "url": "https://osv.dev/vulnerability/GHSA-mwr6-3gp8-9jmj",
+   "published": "2026-01-13T19:12:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "7.18.0"
+  },
+  {
+   "id": "GHSA-2q76-m6w6-qgc6",
+   "aliases": [
+    "GHSA-2q76-m6w6-qgc6",
+    "CVE-2026-105806"
+   ],
+   "ecosystem": "npm",
+   "package": "@payloadcms/plugin-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Payload: Improper access control for MCP API keys",
+   "url": "https://osv.dev/vulnerability/GHSA-2q76-m6w6-qgc6",
+   "published": "2026-10-06T16:09:31Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.88.0"
+  },
+  {
+   "id": "GHSA-22qr-rp27-j9wm",
+   "aliases": [
+    "GHSA-22qr-rp27-j9wm",
+    "CVE-2026-45805"
+   ],
+   "ecosystem": "npm",
+   "package": "@penpot/mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "PenPot MCP REPL server binds to 0.0.0.0 with unauthenticated /execute endpoint — RCE",
+   "url": "https://osv.dev/vulnerability/GHSA-22qr-rp27-j9wm",
+   "published": "2026-05-19T19:57:36Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.15.0"
+  },
+  {
+   "id": "GHSA-6fg3-hvw7-2fwq",
+   "aliases": [
+    "GHSA-6fg3-hvw7-2fwq",
+    "CVE-2025-9611",
+    "GHSA-8rgw-6xp9-2fg3"
+   ],
+   "ecosystem": "npm",
+   "package": "@playwright/mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Microsoft Playwright MCP Server vulnerable to DNS Rebinding Attack; Allows Attackers Access to All Server Tools",
+   "url": "https://osv.dev/vulnerability/GHSA-6fg3-hvw7-2fwq",
+   "published": "2026-01-07T12:31:25Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.40"
+  },
+  {
+   "id": "GHSA-v6wj-c83f-v46x",
+   "aliases": [
+    "GHSA-v6wj-c83f-v46x"
+   ],
+   "ecosystem": "npm",
+   "package": "@profullstack/mcp-server",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "@profullstack/mcp-server vulnerable to OS Command Injection in domain_lookup Module",
+   "url": "https://osv.dev/vulnerability/GHSA-v6wj-c83f-v46x",
+   "published": "2026-05-09T00:42:12Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-gcmm-c94j-j47x",
+   "aliases": [
+    "GHSA-gcmm-c94j-j47x",
+    "CVE-2026-7738"
+   ],
+   "ecosystem": "npm",
+   "package": "@puchunjie/doc-tools-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "@puchunjie/doc-tools-mcp has a Path Traversal Issue",
+   "url": "https://osv.dev/vulnerability/GHSA-gcmm-c94j-j47x",
+   "published": "2026-05-04T09:31:09Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-jjhp-8crj-mppq",
+   "aliases": [
+    "GHSA-jjhp-8crj-mppq",
+    "CVE-2026-61647"
+   ],
+   "ecosystem": "npm",
+   "package": "@roomi-fields/notebooklm-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@roomi-fields/notebooklm-mcp has a path traversal in vault.batch tool that allows arbitrary file write outside intended vault directory",
+   "url": "https://osv.dev/vulnerability/GHSA-jjhp-8crj-mppq",
+   "published": "2026-09-22T14:43:26Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.0.3"
+  },
+  {
+   "id": "GHSA-5q2p-3jg8-2m98",
+   "aliases": [
+    "GHSA-5q2p-3jg8-2m98",
+    "CVE-2025-11285"
+   ],
+   "ecosystem": "npm",
+   "package": "@samanhappy/mcphub",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "MCPHub's ServerController is vulnerable to Command Injection",
+   "url": "https://osv.dev/vulnerability/GHSA-5q2p-3jg8-2m98",
+   "published": "2025-10-05T06:30:14Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-9vq7-9h42-j88h",
+   "aliases": [
+    "GHSA-9vq7-9h42-j88h",
+    "CVE-2025-13822"
+   ],
+   "ecosystem": "npm",
+   "package": "@samanhappy/mcphub",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCPHub has an authentication bypass",
+   "url": "https://osv.dev/vulnerability/GHSA-9vq7-9h42-j88h",
+   "published": "2026-04-14T12:31:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.11.0"
+  },
+  {
+   "id": "GHSA-p3h2-2j4p-p83g",
+   "aliases": [
+    "GHSA-p3h2-2j4p-p83g",
+    "CVE-2026-79743"
+   ],
+   "ecosystem": "npm",
+   "package": "@samanhappy/mcphub",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCPHub has Path Traversal via Malicious MCPB Manifest Name",
+   "url": "https://osv.dev/vulnerability/GHSA-p3h2-2j4p-p83g",
+   "published": "2026-04-22T20:50:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.12.13"
+  },
+  {
+   "id": "GHSA-v7c4-33vf-cqqq",
+   "aliases": [
+    "GHSA-v7c4-33vf-cqqq",
+    "CVE-2025-11287"
+   ],
+   "ecosystem": "npm",
+   "package": "@samanhappy/mcphub",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCPHub has an Improper Authorization vulnerability via its handleSseConnection function",
+   "url": "https://osv.dev/vulnerability/GHSA-v7c4-33vf-cqqq",
+   "published": "2025-10-05T09:30:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-wf8q-wvv8-p8jf",
+   "aliases": [
+    "GHSA-wf8q-wvv8-p8jf"
+   ],
+   "ecosystem": "npm",
+   "package": "@samanhappy/mcphub",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "@samanhappy/mcphub: SSE Endpoint Accepts Arbitrary Username from URL Path Without Authentication, Enabling User Impersonation",
+   "url": "https://osv.dev/vulnerability/GHSA-wf8q-wvv8-p8jf",
+   "published": "2026-05-14T20:44:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.12.15"
+  },
+  {
+   "id": "GHSA-9pw5-wx67-q964",
+   "aliases": [
+    "GHSA-9pw5-wx67-q964",
+    "CVE-2025-10619"
+   ],
+   "ecosystem": "npm",
+   "package": "@sequa-ai/sequa-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "@sequa-ai/sequa-mcp has Command Injection vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-9pw5-wx67-q964",
+   "published": "2025-09-17T21:30:43Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.14"
+  },
+  {
+   "id": "GHSA-f2ph-cmg5-wxc8",
+   "aliases": [
+    "GHSA-f2ph-cmg5-wxc8",
+    "CVE-2026-114125"
+   ],
+   "ecosystem": "npm",
+   "package": "@storybook/addon-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+   "url": "https://osv.dev/vulnerability/GHSA-f2ph-cmg5-wxc8",
+   "published": "2026-10-21T17:23:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "8.6.19;9.1.21;10.6.2;11.0.0-alpha.6;8.6.19;8.6.19;8.6.19;9.1.21;10.6.2;11.0.0-alpha.6;10.6.2;11.0.0-alpha.6"
+  },
+  {
+   "id": "GHSA-6jx8-rcjx-vmwf",
+   "aliases": [
+    "GHSA-6jx8-rcjx-vmwf",
+    "CVE-2025-53818"
+   ],
+   "ecosystem": "npm",
+   "package": "@sunwood-ai-labs/github-kanban-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "GitHub Kanban MCP Server vulnerable to Command Injection",
+   "url": "https://osv.dev/vulnerability/GHSA-6jx8-rcjx-vmwf",
+   "published": "2025-07-15T17:06:32Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-xj5p-8h7g-76m7",
+   "aliases": [
+    "GHSA-xj5p-8h7g-76m7",
+    "CVE-2025-53832"
+   ],
+   "ecosystem": "npm",
+   "package": "@translated/lara-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@translated/lara-mcp vulnerable to command injection in import_tmx tool",
+   "url": "https://osv.dev/vulnerability/GHSA-xj5p-8h7g-76m7",
+   "published": "2025-07-21T14:14:53Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.12"
+  },
+  {
+   "id": "GHSA-p6rm-483j-37jf",
+   "aliases": [
+    "GHSA-p6rm-483j-37jf",
+    "CVE-2025-9262"
+   ],
+   "ecosystem": "npm",
+   "package": "@wong2/mcp-cli",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "wong2 mcp-cli Command Injection Vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-p6rm-483j-37jf",
+   "published": "2025-08-21T00:30:20Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-8jr5-6gvj-rfpf",
+   "aliases": [
+    "GHSA-8jr5-6gvj-rfpf",
+    "CVE-2026-44895"
+   ],
+   "ecosystem": "npm",
+   "package": "@yoda.digital/gitlab-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@yoda.digital/gitlab-mcp-server's SSE transport has no authentication and wildcard CORS, exposing all 86 GitLab tools",
+   "url": "https://osv.dev/vulnerability/GHSA-8jr5-6gvj-rfpf",
+   "published": "2026-05-09T00:10:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.6.0"
+  },
+  {
+   "id": "GHSA-2h44-8472-frjj",
+   "aliases": [
+    "GHSA-2h44-8472-frjj",
+    "CVE-2026-61559"
+   ],
+   "ecosystem": "npm",
+   "package": "@zereight/mcp-gitlab",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "@zereight/mcp-gitlab Vulnerable to Server-Side Request Forgery",
+   "url": "https://osv.dev/vulnerability/GHSA-2h44-8472-frjj",
+   "published": "2026-09-15T20:57:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.27"
+  },
+  {
+   "id": "GHSA-5648-rgj9-v224",
+   "aliases": [
+    "GHSA-5648-rgj9-v224"
+   ],
+   "ecosystem": "npm",
+   "package": "@zereight/mcp-gitlab",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "@zereight/mcp-gitlab has multiple safety-control bypasses: execute_graphql read-only + allow-list bypass, unauthenticated transports, session-exhaustion DoS",
+   "url": "https://osv.dev/vulnerability/GHSA-5648-rgj9-v224",
+   "published": "2026-09-15T20:48:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.30"
+  },
+  {
+   "id": "GHSA-cv3r-c5h8-f4g5",
+   "aliases": [
+    "GHSA-cv3r-c5h8-f4g5",
+    "CVE-2026-61560"
+   ],
+   "ecosystem": "npm",
+   "package": "@zereight/mcp-gitlab",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "@zereight/mcp-gitlab: Unauthenticated arbitrary file read via `upload_markdown` enables PAT exfiltration and full account takeover",
+   "url": "https://osv.dev/vulnerability/GHSA-cv3r-c5h8-f4g5",
+   "published": "2026-09-16T13:48:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.27"
+  },
+  {
+   "id": "GHSA-vmp7-252j-cwp7",
+   "aliases": [
+    "GHSA-vmp7-252j-cwp7",
+    "CVE-2026-61568"
+   ],
+   "ecosystem": "npm",
+   "package": "@zereight/mcp-gitlab",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "@zereight/mcp-gitlab: DNS rebinding reaches local Streamable HTTP MCP transport",
+   "url": "https://osv.dev/vulnerability/GHSA-vmp7-252j-cwp7",
+   "published": "2026-09-15T20:54:55Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.30"
+  },
+  {
+   "id": "GHSA-prmx-7v35-7q82",
+   "aliases": [
+    "GHSA-prmx-7v35-7q82",
+    "CVE-2026-5323"
+   ],
+   "ecosystem": "npm",
+   "package": "a11y-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "a11y-mcp: Server-Side Request Forgery (SSRF) vulnerability in A11yServer function",
+   "url": "https://osv.dev/vulnerability/GHSA-prmx-7v35-7q82",
+   "published": "2026-04-02T09:30:24Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.5"
+  },
+  {
+   "id": "GHSA-54j7-grvr-9xwg",
+   "aliases": [
+    "GHSA-54j7-grvr-9xwg",
+    "CVE-2025-59834"
+   ],
+   "ecosystem": "npm",
+   "package": "adb-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Command Injection in adb-mcp MCP Server",
+   "url": "https://osv.dev/vulnerability/GHSA-54j7-grvr-9xwg",
+   "published": "2025-09-24T18:59:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "affected": "<= 0.1.0"
+  },
+  {
+   "id": "GHSA-vphc-468g-8rfp",
+   "aliases": [
+    "GHSA-vphc-468g-8rfp",
+    "CVE-2026-33980",
+    "PYSEC-2026-2327"
+   ],
+   "ecosystem": "PyPI",
+   "package": "adx-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Azure Data Explorer MCP Server: KQL Injection in multiple tools allows MCP client to execute arbitrary Kusto queries",
+   "url": "https://osv.dev/vulnerability/GHSA-vphc-468g-8rfp",
+   "published": "2026-03-27T19:08:09Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "affected": "<= 1.1.0"
+  },
+  {
+   "id": "GHSA-vcv2-r9jh-99m5",
+   "aliases": [
+    "GHSA-vcv2-r9jh-99m5",
+    "CVE-2026-58195"
+   ],
+   "ecosystem": "npm",
+   "package": "agentic-flow",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Agentic-Flow: OS Command Injection in agentic-flow MCP server tools via unsanitized tool-parameter interpolation into execSync",
+   "url": "https://osv.dev/vulnerability/GHSA-vcv2-r9jh-99m5",
+   "published": "2026-06-19T15:12:58Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.0.14"
+  },
+  {
+   "id": "GHSA-cvhv-6xm6-c3v4",
+   "aliases": [
+    "GHSA-cvhv-6xm6-c3v4",
+    "CVE-2026-1721",
+    "GHSA-w5cr-2qhr-jqc5"
+   ],
+   "ecosystem": "npm",
+   "package": "agents",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Cloudflare Agents is Vulnerable to Reflected Cross-Site Scripting in the AI Playground's OAuth callback handler",
+   "url": "https://osv.dev/vulnerability/GHSA-cvhv-6xm6-c3v4",
+   "published": "2026-02-13T03:31:23Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.3.10"
+  },
+  {
+   "id": "GHSA-crh9-3gjh-m6gc",
+   "aliases": [
+    "GHSA-crh9-3gjh-m6gc",
+    "CVE-2026-5832"
+   ],
+   "ecosystem": "npm",
+   "package": "api-lab-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "api-lab-mcp vulnerable to SSRF",
+   "url": "https://osv.dev/vulnerability/GHSA-crh9-3gjh-m6gc",
+   "published": "2026-04-09T03:31:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-x975-rgx4-5fh4",
+   "aliases": [
+    "GHSA-x975-rgx4-5fh4",
+    "CVE-2026-58500"
+   ],
+   "ecosystem": "npm",
+   "package": "appium-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "appium-mcp: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
+   "url": "https://osv.dev/vulnerability/GHSA-x975-rgx4-5fh4",
+   "published": "2026-06-19T21:43:14Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.85.10"
+  },
+  {
+   "id": "GHSA-g2jx-37x6-6438",
+   "aliases": [
+    "GHSA-g2jx-37x6-6438",
+    "CVE-2025-66454",
+    "PYSEC-2026-1192"
+   ],
+   "ecosystem": "PyPI",
+   "package": "arcade-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "arcade-mcp-server Has Default Hardcoded Worker Secret That Allows Full Unauthorized Access to All HTTP MCP Worker Endpoints",
+   "url": "https://osv.dev/vulnerability/GHSA-g2jx-37x6-6438",
+   "published": "2025-12-02T17:55:44Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.9.1"
+  },
+  {
+   "id": "GHSA-xhcr-cqfr-m3hv",
+   "aliases": [
+    "GHSA-xhcr-cqfr-m3hv",
+    "CVE-2026-91988",
+    "GHSA-wr36-693x-8mgc"
+   ],
+   "ecosystem": "PyPI",
+   "package": "atomic-agents-stack",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "atomic-agents-stack: HTTP MCP catalog accepts cleartext http and spawns catalog-supplied commands (MITM to RCE)",
+   "url": "https://osv.dev/vulnerability/GHSA-xhcr-cqfr-m3hv",
+   "published": "2026-08-17T21:49:55Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.0"
+  },
+  {
+   "id": "GHSA-hv85-774v-26fg",
+   "aliases": [
+    "GHSA-hv85-774v-26fg"
+   ],
+   "ecosystem": "npm",
+   "package": "auth-fetch-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "auth-fetch-mcp: SSRF and disk exfiltration via unvalidated auth_fetch and download_media URLs",
+   "url": "https://osv.dev/vulnerability/GHSA-hv85-774v-26fg",
+   "published": "2026-05-19T15:47:27Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.0.1"
+  },
+  {
+   "id": "GHSA-pvrj-8cg3-j5f8",
+   "aliases": [
+    "GHSA-pvrj-8cg3-j5f8",
+    "CVE-2026-49857"
+   ],
+   "ecosystem": "npm",
+   "package": "auth-fetch-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "auth-fetch-mcp has SSRF Protection Bypass via IPv4-mapped IPv6 Loopback",
+   "url": "https://osv.dev/vulnerability/GHSA-pvrj-8cg3-j5f8",
+   "published": "2026-07-01T18:16:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.0.2"
+  },
+  {
+   "id": "GHSA-vmh7-9c7h-2pgg",
+   "aliases": [
+    "GHSA-vmh7-9c7h-2pgg",
+    "CVE-2026-7150",
+    "PYSEC-2026-2386"
+   ],
+   "ecosystem": "PyPI",
+   "package": "auto-favicon",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "auto-favicon has a Server-Side Request Forgery issue",
+   "url": "https://osv.dev/vulnerability/GHSA-vmh7-9c7h-2pgg",
+   "published": "2026-04-27T21:31:02Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-64vr-4gr2-m642",
+   "aliases": [
+    "GHSA-64vr-4gr2-m642",
+    "CVE-2026-30635"
+   ],
+   "ecosystem": "npm",
+   "package": "automagik-genie",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "automagik-genie has a command injection vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-64vr-4gr2-m642",
+   "published": "2026-05-11T18:31:45Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-fgmx-xfp3-w28p",
+   "aliases": [
+    "GHSA-fgmx-xfp3-w28p",
+    "CVE-2026-5059",
+    "PYSEC-2026-288"
+   ],
+   "ecosystem": "PyPI",
+   "package": "aws-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "aws-mcp has a Command Injection Remote Code Execution Vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-fgmx-xfp3-w28p",
+   "published": "2026-04-11T03:30:30Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-29w2-fq35-v728",
+   "aliases": [
+    "GHSA-29w2-fq35-v728",
+    "CVE-2026-16584",
+    "PYSEC-2026-3549"
+   ],
+   "ecosystem": "PyPI",
+   "package": "awslabs-aws-api-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "AWS API MCP Server Security Policy Bypass via Startup Initialization Failure",
+   "url": "https://osv.dev/vulnerability/GHSA-29w2-fq35-v728",
+   "published": "2026-07-24T22:33:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.3.47"
+  },
+  {
+   "id": "GHSA-2cpp-j2fc-qhp7",
+   "aliases": [
+    "GHSA-2cpp-j2fc-qhp7",
+    "CVE-2026-4270",
+    "PYSEC-2026-162"
+   ],
+   "ecosystem": "PyPI",
+   "package": "awslabs-aws-api-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "AWS API MCP File Access Restriction Bypass",
+   "url": "https://osv.dev/vulnerability/GHSA-2cpp-j2fc-qhp7",
+   "published": "2026-03-17T20:33:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.3.9;1.3.9"
+  },
+  {
+   "id": "GHSA-f65r-h4g3-3h9h",
+   "aliases": [
+    "GHSA-f65r-h4g3-3h9h",
+    "CVE-2026-48797",
+    "PYSEC-2026-291"
+   ],
+   "ecosystem": "PyPI",
+   "package": "backpropagate",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Backpropagate: backprop ui --auth and backprop ui --share do not enforce authentication",
+   "url": "https://osv.dev/vulnerability/GHSA-f65r-h4g3-3h9h",
+   "published": "2026-06-26T20:34:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.2.0;1.2.0"
+  },
+  {
+   "id": "GHSA-86j7-9j95-vpqj",
+   "aliases": [
+    "GHSA-86j7-9j95-vpqj",
+    "CVE-2026-67333"
+   ],
+   "ecosystem": "npm",
+   "package": "better-auth",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
+   "url": "https://osv.dev/vulnerability/GHSA-86j7-9j95-vpqj",
+   "published": "2026-07-07T20:55:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.6.13;1.7.0-beta.4"
+  },
+  {
+   "id": "GHSA-4h8q-hh2j-755w",
+   "aliases": [
+    "GHSA-4h8q-hh2j-755w",
+    "CVE-2026-66004",
+    "PYSEC-2026-4203"
+   ],
+   "ecosystem": "PyPI",
+   "package": "blender-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "BlenderMCP path traversal in download_polyhaven_asset allows arbitrary file writes",
+   "url": "https://osv.dev/vulnerability/GHSA-4h8q-hh2j-755w",
+   "published": "2026-07-24T15:33:04Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.6.5"
+  },
+  {
+   "id": "GHSA-m9mq-7m7q-xc6p",
+   "aliases": [
+    "GHSA-m9mq-7m7q-xc6p",
+    "CVE-2026-55557"
+   ],
+   "ecosystem": "npm",
+   "package": "browse-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "browse-mcp has an arbitrary file write via unconfined download and state paths",
+   "url": "https://osv.dev/vulnerability/GHSA-m9mq-7m7q-xc6p",
+   "published": "2026-08-25T16:28:32Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.8.2"
+  },
+  {
+   "id": "GHSA-7hgr-7h44-33w2",
+   "aliases": [
+    "GHSA-7hgr-7h44-33w2"
+   ],
+   "ecosystem": "npm",
+   "package": "camofox-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "CamoFox MCP: Unauthenticated HTTP MCP browser-control surface",
+   "url": "https://osv.dev/vulnerability/GHSA-7hgr-7h44-33w2",
+   "published": "2026-05-19T20:13:35Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.13.2"
+  },
+  {
+   "id": "GHSA-hvfh-5mj3-5f3j",
+   "aliases": [
+    "GHSA-hvfh-5mj3-5f3j",
+    "CVE-2026-45019",
+    "PYSEC-2026-3811"
+   ],
+   "ecosystem": "PyPI",
+   "package": "chainlit",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Chainlist has SSRF via MCP SSE and streamable-http transports that allows unauthenticated internal network access",
+   "url": "https://osv.dev/vulnerability/GHSA-hvfh-5mj3-5f3j",
+   "published": "2026-08-25T19:21:40Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.12.0"
+  },
+  {
+   "id": "GHSA-w3fx-mc44-mf6j",
+   "aliases": [
+    "GHSA-w3fx-mc44-mf6j",
+    "CVE-2026-45018",
+    "PYSEC-2026-3812"
+   ],
+   "ecosystem": "PyPI",
+   "package": "chainlit",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Chainlit has command injection via MCP stdio transport that allows unauthenticated remote code execution",
+   "url": "https://osv.dev/vulnerability/GHSA-w3fx-mc44-mf6j",
+   "published": "2026-08-25T19:19:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.12.0"
+  },
+  {
+   "id": "GHSA-3pvj-jv98-qhjq",
+   "aliases": [
+    "GHSA-3pvj-jv98-qhjq",
+    "CVE-2026-53765"
+   ],
+   "ecosystem": "npm",
+   "package": "chrome-devtools-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Chrome DevTools for agents: daemon.pid write follows symlinks in /tmp fallback runtime directory",
+   "url": "https://osv.dev/vulnerability/GHSA-3pvj-jv98-qhjq",
+   "published": "2026-06-17T14:01:04Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.0"
+  },
+  {
+   "id": "GHSA-8qf9-62x2-82pp",
+   "aliases": [
+    "GHSA-8qf9-62x2-82pp",
+    "CVE-2026-53766"
+   ],
+   "ecosystem": "npm",
+   "package": "chrome-devtools-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "chrome-devtools-mcp: validatePath() does not canonicalize symlinks before enforcing roots",
+   "url": "https://osv.dev/vulnerability/GHSA-8qf9-62x2-82pp",
+   "published": "2026-08-17T21:56:12Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.0"
+  },
+  {
+   "id": "GHSA-8cxw-cc62-q28v",
+   "aliases": [
+    "GHSA-8cxw-cc62-q28v",
+    "CVE-2026-44220",
+    "PYSEC-2026-2408"
+   ],
+   "ecosystem": "PyPI",
+   "package": "ciguard",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "ciguard: discover_pipeline_files follows symlinks out of scan root",
+   "url": "https://osv.dev/vulnerability/GHSA-8cxw-cc62-q28v",
+   "published": "2026-05-05T22:19:23Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.8.2"
+  },
+  {
+   "id": "GHSA-h4mw-j7qp-8mwm",
+   "aliases": [
+    "GHSA-h4mw-j7qp-8mwm",
+    "CVE-2026-96620"
+   ],
+   "ecosystem": "PyPI",
+   "package": "claude-agent-sdk",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution",
+   "url": "https://osv.dev/vulnerability/GHSA-h4mw-j7qp-8mwm",
+   "published": "2026-10-16T19:44:37Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.2.121"
+  },
+  {
+   "id": "GHSA-rr55-jp92-8wp2",
+   "aliases": [
+    "GHSA-rr55-jp92-8wp2"
+   ],
+   "ecosystem": "npm",
+   "package": "claude-faf-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "claude-faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
+   "url": "https://osv.dev/vulnerability/GHSA-rr55-jp92-8wp2",
+   "published": "2026-08-19T19:15:25Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "5.7.2"
+  },
+  {
+   "id": "GHSA-3cj3-hqcr-g934",
+   "aliases": [
+    "GHSA-3cj3-hqcr-g934",
+    "CVE-2026-59723"
+   ],
+   "ecosystem": "npm",
+   "package": "cline",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
+   "url": "https://osv.dev/vulnerability/GHSA-3cj3-hqcr-g934",
+   "published": "2026-09-24T19:48:34Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.0.30"
+  },
+  {
+   "id": "GHSA-647r-72hf-4vmh",
+   "aliases": [
+    "GHSA-647r-72hf-4vmh",
+    "CVE-2026-10692",
+    "PYSEC-2026-2421"
+   ],
+   "ecosystem": "PyPI",
+   "package": "code-index-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "Code Index MCP is vulnerable to Uncontrolled Resource Consumption",
+   "url": "https://osv.dev/vulnerability/GHSA-647r-72hf-4vmh",
+   "published": "2026-06-03T00:30:27Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.14.1"
+  },
+  {
+   "id": "GHSA-xc9g-j69q-37xw",
+   "aliases": [
+    "GHSA-xc9g-j69q-37xw",
+    "CVE-2026-55609"
+   ],
+   "ecosystem": "npm",
+   "package": "consciousness-explorer",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
+   "url": "https://osv.dev/vulnerability/GHSA-xc9g-j69q-37xw",
+   "published": "2026-08-25T18:35:32Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.2;1.6.0"
+  },
+  {
+   "id": "GHSA-7xgw-6qf3-7w59",
+   "aliases": [
+    "GHSA-7xgw-6qf3-7w59",
+    "CVE-2026-44969",
+    "PYSEC-2026-2441"
+   ],
+   "ecosystem": "PyPI",
+   "package": "dbt-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "dbt MCP Server Logs Tool Arguments Including SQL Queries and Credentials in Plaintext Without Redaction When File Logging Is Enabled",
+   "url": "https://osv.dev/vulnerability/GHSA-7xgw-6qf3-7w59",
+   "published": "2026-05-14T18:24:44Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.17.1"
+  },
+  {
+   "id": "GHSA-jj54-r8gm-2fcf",
+   "aliases": [
+    "GHSA-jj54-r8gm-2fcf",
+    "CVE-2026-44970",
+    "PYSEC-2026-2442"
+   ],
+   "ecosystem": "PyPI",
+   "package": "dbt-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "dbt MCP Server Transmits All MCP Tool Arguments Including Raw SQL and --vars Credentials to dbt Labs Telemetry by Default Without Redaction",
+   "url": "https://osv.dev/vulnerability/GHSA-jj54-r8gm-2fcf",
+   "published": "2026-05-14T18:25:13Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.17.1"
+  },
+  {
+   "id": "GHSA-jr33-mw75-7j8f",
+   "aliases": [
+    "GHSA-jr33-mw75-7j8f",
+    "CVE-2026-55837",
+    "PYSEC-2026-2443"
+   ],
+   "ecosystem": "PyPI",
+   "package": "dbt-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "dbt MCP Server: Unauthenticated OAuth Context Endpoint Leaks dbt Platform Tokens",
+   "url": "https://osv.dev/vulnerability/GHSA-jr33-mw75-7j8f",
+   "published": "2026-06-19T21:15:40Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.20.0"
+  },
+  {
+   "id": "GHSA-xpww-f6pm-cfhq",
+   "aliases": [
+    "GHSA-xpww-f6pm-cfhq",
+    "CVE-2026-44968",
+    "PYSEC-2026-2444"
+   ],
+   "ecosystem": "PyPI",
+   "package": "dbt-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "dbt MCP Server has an Argument Injection in dbt CLI Tool Wrappers via node_selection and resource_type Parameters",
+   "url": "https://osv.dev/vulnerability/GHSA-xpww-f6pm-cfhq",
+   "published": "2026-05-14T18:24:26Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.17.1"
+  },
+  {
+   "id": "GHSA-jg88-rvpc-qvxj",
+   "aliases": [
+    "GHSA-jg88-rvpc-qvxj",
+    "CVE-2026-58168",
+    "PYSEC-2026-4206"
+   ],
+   "ecosystem": "PyPI",
+   "package": "deeptutor",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "DeepTutor missing MCP tool authorization allows non-admin users to invoke unrestricted tools",
+   "url": "https://osv.dev/vulnerability/GHSA-jg88-rvpc-qvxj",
+   "published": "2026-06-30T18:31:38Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.4.10"
+  },
+  {
+   "id": "GHSA-r57g-mc79-8hj2",
+   "aliases": [
+    "GHSA-r57g-mc79-8hj2",
+    "CVE-2026-113731"
+   ],
+   "ecosystem": "PyPI",
+   "package": "djust",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "djust: Arbitrary absolute-path file read in the find_handlers_for_template MCP tool",
+   "url": "https://osv.dev/vulnerability/GHSA-r57g-mc79-8hj2",
+   "published": "2026-10-21T17:21:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.10;1.1.7;1.2.4;1.3.0rc8"
+  },
+  {
+   "id": "GHSA-m35w-xx8c-6xc7",
+   "aliases": [
+    "GHSA-m35w-xx8c-6xc7",
+    "CVE-2025-58337",
+    "PYSEC-2026-1315"
+   ],
+   "ecosystem": "PyPI",
+   "package": "doris-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Apache Doris-MCP-Server: Improper Access Control results in bypassing a \"read-only\" mode",
+   "url": "https://osv.dev/vulnerability/GHSA-m35w-xx8c-6xc7",
+   "published": "2025-11-05T12:30:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.6.0"
+  },
+  {
+   "id": "GHSA-pqrj-4gwg-h5f7",
+   "aliases": [
+    "GHSA-pqrj-4gwg-h5f7",
+    "CVE-2025-66336",
+    "PYSEC-2026-4048"
+   ],
+   "ecosystem": "PyPI",
+   "package": "doris-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Apache Doris MCP Server is vulnerable to SQL Injection via metadata query path",
+   "url": "https://osv.dev/vulnerability/GHSA-pqrj-4gwg-h5f7",
+   "published": "2026-06-22T09:30:45Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.6.1"
+  },
+  {
+   "id": "GHSA-qhfq-gvvc-5q6q",
+   "aliases": [
+    "GHSA-qhfq-gvvc-5q6q",
+    "CVE-2025-66335",
+    "PYSEC-2026-2459"
+   ],
+   "ecosystem": "PyPI",
+   "package": "doris-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Apache Doris MCP Server vulnerable to SQL Injection via improper query context neutralization",
+   "url": "https://osv.dev/vulnerability/GHSA-qhfq-gvvc-5q6q",
+   "published": "2026-04-20T15:31:52Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.6.1"
+  },
+  {
+   "id": "GHSA-97rm-xj73-33jh",
+   "aliases": [
+    "GHSA-97rm-xj73-33jh",
+    "CVE-2026-27203"
+   ],
+   "ecosystem": "npm",
+   "package": "ebay-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "eBay API MCP Server Affected by Environment Variable Injection",
+   "url": "https://osv.dev/vulnerability/GHSA-97rm-xj73-33jh",
+   "published": "2026-02-19T20:27:11Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "affected": "<= 1.7.2"
+  },
+  {
+   "id": "GHSA-7qm7-455j-5p63",
+   "aliases": [
+    "GHSA-7qm7-455j-5p63",
+    "CVE-2026-22686"
+   ],
+   "ecosystem": "npm",
+   "package": "enclave-vm",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "enclave-vm Vulnerable to Sandbox Escape via Host Error Prototype Chain",
+   "url": "https://osv.dev/vulnerability/GHSA-7qm7-455j-5p63",
+   "published": "2026-01-14T16:52:30Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.7.0"
+  },
+  {
+   "id": "GHSA-j98m-w3xp-9f56",
+   "aliases": [
+    "GHSA-j98m-w3xp-9f56",
+    "CVE-2026-40576",
+    "PYSEC-2026-331"
+   ],
+   "ecosystem": "PyPI",
+   "package": "excel-mcp-server",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "excel-mcp-server has a Path Traversal issue",
+   "url": "https://osv.dev/vulnerability/GHSA-j98m-w3xp-9f56",
+   "published": "2026-04-14T00:03:17Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.8"
+  },
+  {
+   "id": "GHSA-j4r7-8ph4-43g3",
+   "aliases": [
+    "GHSA-j4r7-8ph4-43g3"
+   ],
+   "ecosystem": "npm",
+   "package": "faf-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
+   "url": "https://osv.dev/vulnerability/GHSA-j4r7-8ph4-43g3",
+   "published": "2026-08-19T19:15:13Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.3"
+  },
+  {
+   "id": "GHSA-5226-3rvg-hp4x",
+   "aliases": [
+    "GHSA-5226-3rvg-hp4x",
+    "CVE-2026-5327"
+   ],
+   "ecosystem": "npm",
+   "package": "fast-filesystem-mcp",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "fast-filesystem-mcp is vulnerable to command injection through handleGetDiskUsage function",
+   "url": "https://osv.dev/vulnerability/GHSA-5226-3rvg-hp4x",
+   "published": "2026-04-02T12:31:05Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-j893-m93w-jwjw",
+   "aliases": [
+    "GHSA-j893-m93w-jwjw",
+    "CVE-2025-67364"
+   ],
+   "ecosystem": "npm",
+   "package": "fast-filesystem-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "fast-filesystem-mcp has a Path Traversal vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-j893-m93w-jwjw",
+   "published": "2026-01-07T18:30:26Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-rxw2-pc8j-vxwm",
+   "aliases": [
+    "GHSA-rxw2-pc8j-vxwm",
+    "CVE-2026-52830",
+    "PYSEC-2026-2473"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fast-mcp-telegram",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "fast-mcp-telegram: Bearer token path traversal bypasses reserved Telegram session protection",
+   "url": "https://osv.dev/vulnerability/GHSA-rxw2-pc8j-vxwm",
+   "published": "2026-07-02T20:38:50Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.19.1"
+  },
+  {
+   "id": "GHSA-5h2m-4q8j-pqpj",
+   "aliases": [
+    "GHSA-5h2m-4q8j-pqpj",
+    "CVE-2025-69196",
+    "PYSEC-2026-2474"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "FastMCP OAuth Proxy token reuse across MCP servers",
+   "url": "https://osv.dev/vulnerability/GHSA-5h2m-4q8j-pqpj",
+   "published": "2026-03-16T15:14:55Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.14.2"
+  },
+  {
+   "id": "GHSA-c2jp-c369-7pvx",
+   "aliases": [
+    "GHSA-c2jp-c369-7pvx"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "FastMCP Auth Integration Allows for Confused Deputy Account Takeover",
+   "url": "https://osv.dev/vulnerability/GHSA-c2jp-c369-7pvx",
+   "published": "2025-10-29T15:38:07Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.13.0"
+  },
+  {
+   "id": "GHSA-m8x7-r2rg-vh5g",
+   "aliases": [
+    "GHSA-m8x7-r2rg-vh5g",
+    "CVE-2025-64340",
+    "PYSEC-2026-2475"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "FastMCP has a Command Injection vulnerability - Gemini CLI",
+   "url": "https://osv.dev/vulnerability/GHSA-m8x7-r2rg-vh5g",
+   "published": "2026-03-31T22:24:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.2.0"
+  },
+  {
+   "id": "GHSA-mxxr-jv3v-6pgc",
+   "aliases": [
+    "GHSA-mxxr-jv3v-6pgc",
+    "CVE-2025-62800",
+    "PYSEC-2026-1364"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "FastMCP vulnerable to reflected XSS in client's callback page",
+   "url": "https://osv.dev/vulnerability/GHSA-mxxr-jv3v-6pgc",
+   "published": "2025-10-29T15:38:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.13.0"
+  },
+  {
+   "id": "GHSA-rcfx-77hg-w2wv",
+   "aliases": [
+    "GHSA-rcfx-77hg-w2wv"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "FastMCP updated to MCP 1.23+ due to CVE-2025-66416",
+   "url": "https://osv.dev/vulnerability/GHSA-rcfx-77hg-w2wv",
+   "published": "2025-12-26T23:20:50Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.14.0"
+  },
+  {
+   "id": "GHSA-rj5c-58rq-j5g5",
+   "aliases": [
+    "GHSA-rj5c-58rq-j5g5",
+    "CVE-2025-62801",
+    "PYSEC-2026-1365"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "FastMCP vulnerable to windows command injection in FastMCP Cursor installer via server_name",
+   "url": "https://osv.dev/vulnerability/GHSA-rj5c-58rq-j5g5",
+   "published": "2025-10-29T15:39:03Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.13.0"
+  },
+  {
+   "id": "GHSA-rww4-4w9c-7733",
+   "aliases": [
+    "GHSA-rww4-4w9c-7733",
+    "CVE-2026-27124",
+    "PYSEC-2026-2476"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "FastMCP: Missing Consent Verification in OAuth Proxy Callback Facilitates Confused Deputy Vulnerabilities",
+   "url": "https://osv.dev/vulnerability/GHSA-rww4-4w9c-7733",
+   "published": "2026-03-31T22:32:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.2.0"
+  },
+  {
+   "id": "GHSA-vv7q-7jx5-f767",
+   "aliases": [
+    "GHSA-vv7q-7jx5-f767",
+    "CVE-2026-32871",
+    "PYSEC-2026-338"
+   ],
+   "ecosystem": "PyPI",
+   "package": "fastmcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "FastMCP OpenAPI Provider has an SSRF & Path Traversal Vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-vv7q-7jx5-f767",
+   "published": "2026-03-31T22:53:21Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.2.0"
+  },
+  {
+   "id": "GHSA-gxw4-4fc5-9gr5",
+   "aliases": [
+    "GHSA-gxw4-4fc5-9gr5",
+    "CVE-2025-53967",
+    "CVE-2025-15061",
+    "GHSA-8675-cg27-5c39"
+   ],
+   "ecosystem": "npm",
+   "package": "figma-developer-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "figma-developer-mcp vulnerable to command injection in get_figma_data tool",
+   "url": "https://osv.dev/vulnerability/GHSA-gxw4-4fc5-9gr5",
+   "published": "2025-09-30T17:01:42Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.6.3"
+  },
+  {
+   "id": "GHSA-2vv2-3x8x-4gv7",
+   "aliases": [
+    "GHSA-2vv2-3x8x-4gv7",
+    "CVE-2025-8943",
+    "CVE-2025-71336",
+    "GHSA-6933-jpx5-q87q",
+    "GHSA-q2xp-j85q-883h"
+   ],
+   "ecosystem": "npm",
+   "package": "flowise",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Flowise OS command remote code execution",
+   "url": "https://osv.dev/vulnerability/GHSA-2vv2-3x8x-4gv7",
+   "published": "2025-08-14T12:30:23Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.0.6"
+  },
+  {
+   "id": "GHSA-3gcm-f6qx-ff7p",
+   "aliases": [
+    "GHSA-3gcm-f6qx-ff7p",
+    "CVE-2025-59528"
+   ],
+   "ecosystem": "npm",
+   "package": "flowise",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Flowise has Remote Code Execution vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-3gcm-f6qx-ff7p",
+   "published": "2025-09-15T19:59:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.0.6"
+  },
+  {
+   "id": "GHSA-c6xh-wv4j-ppv5",
+   "aliases": [
+    "GHSA-c6xh-wv4j-ppv5",
+    "CVE-2026-69257"
+   ],
+   "ecosystem": "npm",
+   "package": "flowise",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Flowise: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses",
+   "url": "https://osv.dev/vulnerability/GHSA-c6xh-wv4j-ppv5",
+   "published": "2026-08-04T15:51:58Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.1.3"
+  },
+  {
+   "id": "GHSA-cvrr-qhgw-2mm6",
+   "aliases": [
+    "GHSA-cvrr-qhgw-2mm6",
+    "CVE-2026-41268"
+   ],
+   "ecosystem": "npm",
+   "package": "flowise",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Flowise: Parameter Override Bypass Remote Command Execution",
+   "url": "https://osv.dev/vulnerability/GHSA-cvrr-qhgw-2mm6",
+   "published": "2026-04-16T21:46:39Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.1.0;3.1.0"
+  },
+  {
+   "id": "GHSA-hmgh-466j-fx4c",
+   "aliases": [
+    "GHSA-hmgh-466j-fx4c",
+    "CVE-2025-55346"
+   ],
+   "ecosystem": "npm",
+   "package": "flowise",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Flowise vulnerable to RCE via Dynamic function constructor injection",
+   "url": "https://osv.dev/vulnerability/GHSA-hmgh-466j-fx4c",
+   "published": "2025-10-06T14:08:45Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-m99r-2hxc-cp3q",
+   "aliases": [
+    "GHSA-m99r-2hxc-cp3q",
+    "CVE-2026-56274",
+    "GHSA-8rhx-2hcv-q49g"
+   ],
+   "ecosystem": "npm",
+   "package": "flowise",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Flowise has an MCP Security Bypass that Enables RCE",
+   "url": "https://osv.dev/vulnerability/GHSA-m99r-2hxc-cp3q",
+   "published": "2026-05-14T14:57:30Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.1.2;3.1.2"
+  },
+  {
+   "id": "GHSA-xc48-889x-5qmw",
+   "aliases": [
+    "GHSA-xc48-889x-5qmw",
+    "CVE-2026-69263"
+   ],
+   "ecosystem": "npm",
+   "package": "flowise",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Flowise: CVE-2025-8943 Patch Bypass: npm_config_yes bypasses MCP environment variable blocklist (Unauthenticated RCE)",
+   "url": "https://osv.dev/vulnerability/GHSA-xc48-889x-5qmw",
+   "published": "2026-08-04T17:09:48Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.1.3;3.1.3"
+  },
+  {
+   "id": "GHSA-2956-977x-2w3r",
+   "aliases": [
+    "GHSA-2956-977x-2w3r",
+    "CVE-2026-67429",
+    "PYSEC-2026-3568"
+   ],
+   "ecosystem": "PyPI",
+   "package": "flyto-core",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Flyto2 Core: Arbitrary file write via image.download (and other file-writing modules)",
+   "url": "https://osv.dev/vulnerability/GHSA-2956-977x-2w3r",
+   "published": "2026-07-30T14:46:43Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.26.7"
+  },
+  {
+   "id": "GHSA-hr7p-wg7r-hg9m",
+   "aliases": [
+    "GHSA-hr7p-wg7r-hg9m",
+    "CVE-2026-67427",
+    "PYSEC-2026-3570"
+   ],
+   "ecosystem": "PyPI",
+   "package": "flyto-core",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Flyto2 Core: ${env.VAR} interpolation reads any env secret despite env.get being denylisted",
+   "url": "https://osv.dev/vulnerability/GHSA-hr7p-wg7r-hg9m",
+   "published": "2026-07-30T14:47:01Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.26.7"
+  },
+  {
+   "id": "GHSA-pgwh-4jj4-qm8v",
+   "aliases": [
+    "GHSA-pgwh-4jj4-qm8v",
+    "CVE-2026-67428",
+    "PYSEC-2026-3572"
+   ],
+   "ecosystem": "PyPI",
+   "package": "flyto-core",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Flyto2 Core: Multiple HTTP-family modules fetch client-controlled URLs without the SSRF guard their siblings apply (SSRF to internal/metadata)",
+   "url": "https://osv.dev/vulnerability/GHSA-pgwh-4jj4-qm8v",
+   "published": "2026-07-30T14:48:05Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.26.7"
+  },
+  {
+   "id": "GHSA-7rcj-2493-83x3",
+   "aliases": [
+    "GHSA-7rcj-2493-83x3",
+    "CVE-2026-9073",
+    "PYSEC-2026-4050"
+   ],
+   "ecosystem": "PyPI",
+   "package": "foreman-mcp-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "foreman-mcp-server Inserts Sensitive Information into Log File",
+   "url": "https://osv.dev/vulnerability/GHSA-7rcj-2493-83x3",
+   "published": "2026-06-23T21:30:33Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1782228427;1782228692"
+  },
+  {
+   "id": "GHSA-wcjj-9m6g-2fr2",
+   "aliases": [
+    "GHSA-wcjj-9m6g-2fr2",
+    "CVE-2026-59176"
+   ],
+   "ecosystem": "npm",
+   "package": "functype-mcp-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "functype-mcp-server: MCP `set_functype_version` Package Alias RCE via Unsanitized pnpm install + Dynamic Import",
+   "url": "https://osv.dev/vulnerability/GHSA-wcjj-9m6g-2fr2",
+   "published": "2026-09-09T23:49:20Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.4.4"
+  },
+  {
+   "id": "GHSA-c5px-58j2-7fqp",
+   "aliases": [
+    "GHSA-c5px-58j2-7fqp",
+    "CVE-2026-54785",
+    "PYSEC-2026-3574"
+   ],
+   "ecosystem": "PyPI",
+   "package": "gemini-bridge",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
+   "url": "https://osv.dev/vulnerability/GHSA-c5px-58j2-7fqp",
+   "published": "2026-07-31T22:31:20Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.3.1"
+  },
+  {
+   "id": "GHSA-4h5r-5jm8-jxjm",
+   "aliases": [
+    "GHSA-4h5r-5jm8-jxjm",
+    "CVE-2026-0755"
+   ],
+   "ecosystem": "npm",
+   "package": "gemini-mcp-tool",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "gemini-mcp-tool vulnerable to OS command injection and @file exfiltration via prompt quoting (CVE-2026-0755)",
+   "url": "https://osv.dev/vulnerability/GHSA-4h5r-5jm8-jxjm",
+   "published": "2026-06-18T20:44:58Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.6"
+  },
+  {
+   "id": "GHSA-52cq-7v8r-62c6",
+   "aliases": [
+    "GHSA-52cq-7v8r-62c6"
+   ],
+   "ecosystem": "PyPI",
+   "package": "gmaps-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "gmaps-mcp's unauthenticated HTTP transport allows unlimited Google Maps API calls at operator expense",
+   "url": "https://osv.dev/vulnerability/GHSA-52cq-7v8r-62c6",
+   "published": "2026-05-08T16:32:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.3"
+  },
+  {
+   "id": "GHSA-gg5m-55jj-8m5g",
+   "aliases": [
+    "GHSA-gg5m-55jj-8m5g",
+    "CVE-2026-32247",
+    "PYSEC-2026-2504"
+   ],
+   "ecosystem": "PyPI",
+   "package": "graphiti-core",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Graphiti vulnerable to Cypher Injection via unsanitized node_labels in search filters",
+   "url": "https://osv.dev/vulnerability/GHSA-gg5m-55jj-8m5g",
+   "published": "2026-03-12T17:26:16Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.28.2"
+  },
+  {
+   "id": "GHSA-cc2g-gq8c-r332",
+   "aliases": [
+    "GHSA-cc2g-gq8c-r332"
+   ],
+   "ecosystem": "npm",
+   "package": "grok-faf-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "grok-faf-mcp has an arbitrary local file read via unconfined `path` argument in FAF tools",
+   "url": "https://osv.dev/vulnerability/GHSA-cc2g-gq8c-r332",
+   "published": "2026-08-19T19:15:01Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.5.3"
+  },
+  {
+   "id": "GHSA-fmfg-9g7c-3vq7",
+   "aliases": [
+    "GHSA-fmfg-9g7c-3vq7",
+    "CVE-2026-32111",
+    "PYSEC-2026-2507"
+   ],
+   "ecosystem": "PyPI",
+   "package": "ha-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "ha-mcp OAuth 2.1 DCR mode enables network reconnaissance via an error oracle",
+   "url": "https://osv.dev/vulnerability/GHSA-fmfg-9g7c-3vq7",
+   "published": "2026-03-12T14:23:37Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "7.0.0"
+  },
+  {
+   "id": "GHSA-g39v-cvjh-8fpf",
+   "aliases": [
+    "GHSA-g39v-cvjh-8fpf"
+   ],
+   "ecosystem": "PyPI",
+   "package": "ha-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Home Assistant MCP Server: YAML config backups written under www/ are served unauthenticated at /local/",
+   "url": "https://osv.dev/vulnerability/GHSA-g39v-cvjh-8fpf",
+   "published": "2026-05-14T20:17:23Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "7.5.0"
+  },
+  {
+   "id": "GHSA-pf93-j98v-25pv",
+   "aliases": [
+    "GHSA-pf93-j98v-25pv",
+    "CVE-2026-32112",
+    "PYSEC-2026-2508"
+   ],
+   "ecosystem": "PyPI",
+   "package": "ha-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "ha-mcp has XSS via Unescaped HTML in OAuth Consent Form",
+   "url": "https://osv.dev/vulnerability/GHSA-pf93-j98v-25pv",
+   "published": "2026-03-12T14:23:44Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "7.0.0"
+  },
+  {
+   "id": "GHSA-q855-8rh5-jfgq",
+   "aliases": [
+    "GHSA-q855-8rh5-jfgq"
+   ],
+   "ecosystem": "PyPI",
+   "package": "ha-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "ha-mcp: Add-on settings and policy routes are reachable without authentication at the bare root path",
+   "url": "https://osv.dev/vulnerability/GHSA-q855-8rh5-jfgq",
+   "published": "2026-07-07T23:41:21Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "7.10.0"
+  },
+  {
+   "id": "GHSA-g5cg-6c7v-mmpw",
+   "aliases": [
+    "GHSA-g5cg-6c7v-mmpw",
+    "CVE-2025-59155"
+   ],
+   "ecosystem": "npm",
+   "package": "hackmd-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "HackMD MCP Server has Server-Side Request Forgery (SSRF) vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-g5cg-6c7v-mmpw",
+   "published": "2025-09-15T20:37:46Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.5.0"
+  },
+  {
+   "id": "GHSA-6f6r-m9pv-67jw",
+   "aliases": [
+    "GHSA-6f6r-m9pv-67jw",
+    "CVE-2025-52573"
+   ],
+   "ecosystem": "npm",
+   "package": "ios-simulator-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "iOS Simulator MCP Command Injection allowed via exec API",
+   "url": "https://osv.dev/vulnerability/GHSA-6f6r-m9pv-67jw",
+   "published": "2025-06-26T21:20:37Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.3.3"
+  },
+  {
+   "id": "GHSA-q882-jc55-6343",
+   "aliases": [
+    "GHSA-q882-jc55-6343",
+    "CVE-2026-7149",
+    "PYSEC-2026-2542"
+   ],
+   "ecosystem": "PyPI",
+   "package": "kaggle-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "kaggle-mcp has a Path Traversal issue",
+   "url": "https://osv.dev/vulnerability/GHSA-q882-jc55-6343",
+   "published": "2026-04-27T21:31:02Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-9gfj-28hw-jchp",
+   "aliases": [
+    "GHSA-9gfj-28hw-jchp",
+    "CVE-2026-86439"
+   ],
+   "ecosystem": "npm",
+   "package": "knowns",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+   "url": "https://osv.dev/vulnerability/GHSA-9gfj-28hw-jchp",
+   "published": "2026-09-25T19:32:05Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.30.0"
+  },
+  {
+   "id": "GHSA-94gr-w3q5-rfqr",
+   "aliases": [
+    "GHSA-94gr-w3q5-rfqr",
+    "CVE-2025-65719",
+    "PYSEC-2026-371"
+   ],
+   "ecosystem": "npm",
+   "package": "kubectl-mcp-server",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Open Source Kubectl MCP Server vulnerable to arbitrary code execution via user interaction with crafted HTML page",
+   "url": "https://osv.dev/vulnerability/GHSA-94gr-w3q5-rfqr",
+   "published": "2026-05-12T18:30:38Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.2.0;1.2.0"
+  },
+  {
+   "id": "GHSA-3pvh-63gf-j9mw",
+   "aliases": [
+    "GHSA-3pvh-63gf-j9mw",
+    "CVE-2026-54449",
+    "PYSEC-2026-3473"
+   ],
+   "ecosystem": "PyPI",
+   "package": "langbot",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "LangBot: Authenticated RCE Via MCP Configuration",
+   "url": "https://osv.dev/vulnerability/GHSA-3pvh-63gf-j9mw",
+   "published": "2026-07-15T17:39:34Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "affected": "<= 4.10.7"
+  },
+  {
+   "id": "GHSA-4f6c-2vvp-gw82",
+   "aliases": [
+    "GHSA-4f6c-2vvp-gw82",
+    "CVE-2026-105741",
+    "PYSEC-2026-4229"
+   ],
+   "ecosystem": "PyPI",
+   "package": "langflow",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Langflow: IP Spoofing Bypass via `X-Forwarded-For` Allowing Remote Configuration Write",
+   "url": "https://osv.dev/vulnerability/GHSA-4f6c-2vvp-gw82",
+   "published": "2026-10-07T16:18:23Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.10.3"
+  },
+  {
+   "id": "GHSA-4hmc-cfm3-w43c",
+   "aliases": [
+    "GHSA-4hmc-cfm3-w43c",
+    "CVE-2026-105699",
+    "PYSEC-2026-4230"
+   ],
+   "ecosystem": "PyPI",
+   "package": "langflow",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Langflow has Authenticated Cross-Project File Disclosure via Unscoped MCP Resource Handlers",
+   "url": "https://osv.dev/vulnerability/GHSA-4hmc-cfm3-w43c",
+   "published": "2026-10-07T20:35:12Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.9.1"
+  },
+  {
+   "id": "GHSA-v66p-f7x3-4794",
+   "aliases": [
+    "GHSA-v66p-f7x3-4794",
+    "CVE-2026-6599",
+    "PYSEC-2026-2569"
+   ],
+   "ecosystem": "PyPI",
+   "package": "langflow",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "Langflow vulnerable to injection",
+   "url": "https://osv.dev/vulnerability/GHSA-v66p-f7x3-4794",
+   "published": "2026-04-20T06:31:27Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-w794-rj3p-xv45",
+   "aliases": [
+    "GHSA-w794-rj3p-xv45",
+    "CVE-2026-17623",
+    "CVE-2026-105697",
+    "GHSA-7rx7-4wfr-4qqv",
+    "PYSEC-2026-4237",
+    "PYSEC-2026-4239",
+    "PYSEC-2026-4241"
+   ],
+   "ecosystem": "PyPI",
+   "package": "langflow",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Langflow: OS command injection (RCE) via arbitrary command in MCP stdio server configuration",
+   "url": "https://osv.dev/vulnerability/GHSA-w794-rj3p-xv45",
+   "published": "2026-10-07T20:36:35Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.10.3;0.10.3;1.10.3"
+  },
+  {
+   "id": "GHSA-4hf8-5mjm-rfgq",
+   "aliases": [
+    "GHSA-4hf8-5mjm-rfgq",
+    "CVE-2026-49357"
+   ],
+   "ecosystem": "npm",
+   "package": "line-desktop-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Streamable HTTP mode exposes LINE Desktop read/send tools without MCP authentication",
+   "url": "https://osv.dev/vulnerability/GHSA-4hf8-5mjm-rfgq",
+   "published": "2026-06-26T21:50:49Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.2"
+  },
+  {
+   "id": "GHSA-7488-6r32-c95q",
+   "aliases": [
+    "GHSA-7488-6r32-c95q",
+    "CVE-2026-59822",
+    "PYSEC-2026-3479"
+   ],
+   "ecosystem": "PyPI",
+   "package": "litellm",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "LiteLLM: MCP Authentication Bypass via OAuth2 Passthrough Fallback",
+   "url": "https://osv.dev/vulnerability/GHSA-7488-6r32-c95q",
+   "published": "2026-07-22T22:38:33Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.84.0"
+  },
+  {
+   "id": "GHSA-v4p8-mg3p-g94g",
+   "aliases": [
+    "GHSA-v4p8-mg3p-g94g",
+    "CVE-2026-42271",
+    "PYSEC-2026-2599"
+   ],
+   "ecosystem": "PyPI",
+   "package": "litellm",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "LiteLLM: Authenticated command execution via MCP stdio test endpoints",
+   "url": "https://osv.dev/vulnerability/GHSA-v4p8-mg3p-g94g",
+   "published": "2026-04-25T23:27:54Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.83.7"
+  },
+  {
+   "id": "GHSA-2xj6-xx86-cwwc",
+   "aliases": [
+    "GHSA-2xj6-xx86-cwwc",
+    "CVE-2026-77255",
+    "PYSEC-2026-4080"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: Arbitrary File Read & Exfiltration (Confused Deputy) in JIRA update_issue",
+   "url": "https://osv.dev/vulnerability/GHSA-2xj6-xx86-cwwc",
+   "published": "2026-09-22T20:34:52Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-3r68-hf9h-887v",
+   "aliases": [
+    "GHSA-3r68-hf9h-887v",
+    "CVE-2026-77243",
+    "PYSEC-2026-4081"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: ENABLED_TOOLS / Toolset authorization bypass",
+   "url": "https://osv.dev/vulnerability/GHSA-3r68-hf9h-887v",
+   "published": "2026-09-22T20:34:55Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-4596-2p6p-28cv",
+   "aliases": [
+    "GHSA-4596-2p6p-28cv",
+    "CVE-2026-77250",
+    "CVE-2026-77256",
+    "CVE-2026-77268",
+    "GHSA-76pr-5669-3xf5",
+    "GHSA-g5xv-mhgm-v5f6",
+    "PYSEC-2026-4082",
+    "PYSEC-2026-4094"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: Insecure File Permissions on OAuth Token Storage",
+   "url": "https://osv.dev/vulnerability/GHSA-4596-2p6p-28cv",
+   "published": "2026-09-22T20:35:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-489g-7rxv-6c8q",
+   "aliases": [
+    "GHSA-489g-7rxv-6c8q",
+    "CVE-2026-73497",
+    "CVE-2026-77242",
+    "CVE-2026-77265",
+    "GHSA-49xv-9743-pw8w",
+    "GHSA-72fm-whvq-jghf",
+    "PYSEC-2026-4083"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
+   "url": "https://osv.dev/vulnerability/GHSA-489g-7rxv-6c8q",
+   "published": "2026-07-10T18:01:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-5wf4-jqxh-8gm3",
+   "aliases": [
+    "GHSA-5wf4-jqxh-8gm3",
+    "CVE-2026-77267",
+    "PYSEC-2026-4084"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-atlassian has an incomplete SSRF remediation",
+   "url": "https://osv.dev/vulnerability/GHSA-5wf4-jqxh-8gm3",
+   "published": "2026-09-22T20:36:17Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-6529-c226-h328",
+   "aliases": [
+    "GHSA-6529-c226-h328",
+    "CVE-2026-77261",
+    "PYSEC-2026-4085"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: SSRF redirect protection missing for basic-auth and OAuth authentication branches",
+   "url": "https://osv.dev/vulnerability/GHSA-6529-c226-h328",
+   "published": "2026-09-22T20:35:13Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-6cr4-ccf3-x7h4",
+   "aliases": [
+    "GHSA-6cr4-ccf3-x7h4",
+    "CVE-2026-73498",
+    "CVE-2026-73496",
+    "CVE-2026-77246",
+    "CVE-2026-77247",
+    "CVE-2026-77248",
+    "CVE-2026-77253",
+    "CVE-2026-77257",
+    "CVE-2026-77258",
+    "CVE-2026-77259",
+    "CVE-2026-77260",
+    "CVE-2026-77262",
+    "CVE-2026-77266",
+    "CVE-2026-77269",
+    "CVE-2026-77270",
+    "GHSA-93xw-j965-9mx3",
+    "GHSA-cc5h-2pwp-pvcc",
+    "GHSA-f26r-j276-ggg4",
+    "GHSA-f4p7-qx46-wc5j",
+    "GHSA-f6pj-qv47-g96w",
+    "GHSA-g5r6-gv6m-f5jv",
+    "GHSA-h7wj-5v37-59r2",
+    "GHSA-mfv2-4wvm-9pgp",
+    "GHSA-mrq8-fv7v-hhjg",
+    "GHSA-p6hp-93wp-fh6p",
+    "GHSA-vc25-24vv-fxxm",
+    "GHSA-wm45-qh3g-v83f",
+    "GHSA-wv8v-v4c5-v75j",
+    "PYSEC-2026-3683",
+    "PYSEC-2026-4086",
+    "PYSEC-2026-4088",
+    "PYSEC-2026-4089",
+    "PYSEC-2026-4090",
+    "PYSEC-2026-4091",
+    "PYSEC-2026-4092",
+    "PYSEC-2026-4095",
+    "PYSEC-2026-4097",
+    "PYSEC-2026-4098",
+    "PYSEC-2026-4099",
+    "PYSEC-2026-4101",
+    "PYSEC-2026-4104"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: Arbitrary file read via confluence_upload_attachment allows exfiltration of server credentials",
+   "url": "https://osv.dev/vulnerability/GHSA-6cr4-ccf3-x7h4",
+   "published": "2026-09-22T20:35:16Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-6vmq-24h2-pj7j",
+   "aliases": [
+    "GHSA-6vmq-24h2-pj7j",
+    "CVE-2026-77271",
+    "PYSEC-2026-4087"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: Incomplete path traversal fix allows intra-CWD module overwrite and RCE (bypass of GHSA-xjgw-4wvw-rgm4)",
+   "url": "https://osv.dev/vulnerability/GHSA-6vmq-24h2-pj7j",
+   "published": "2026-09-22T20:36:20Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-7r34-79r5-rcc9",
+   "aliases": [
+    "GHSA-7r34-79r5-rcc9",
+    "CVE-2026-27826",
+    "PYSEC-2026-2621"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian has SSRF via unvalidated X-Atlassian-Jira-Url / X-Atlassian-Confluence-Url headers",
+   "url": "https://osv.dev/vulnerability/GHSA-7r34-79r5-rcc9",
+   "published": "2026-03-10T18:48:46Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.17.0"
+  },
+  {
+   "id": "GHSA-g2r2-3j32-j27x",
+   "aliases": [
+    "GHSA-g2r2-3j32-j27x",
+    "CVE-2026-77272",
+    "PYSEC-2026-4093"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: Reflected XSS in OAuth Setup Callback Handler",
+   "url": "https://osv.dev/vulnerability/GHSA-g2r2-3j32-j27x",
+   "published": "2026-09-22T20:35:25Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-hgcf-4mq8-5266",
+   "aliases": [
+    "GHSA-hgcf-4mq8-5266",
+    "CVE-2026-77274",
+    "PYSEC-2026-4096"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: SSRF Protection Bypass",
+   "url": "https://osv.dev/vulnerability/GHSA-hgcf-4mq8-5266",
+   "published": "2026-09-22T20:36:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-v9m3-wfh8-5646",
+   "aliases": [
+    "GHSA-v9m3-wfh8-5646",
+    "CVE-2026-77249",
+    "PYSEC-2026-4100"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian:  Incomplete fix for GHSA-7r34-79r5-rcc9: redirect-based SSRF via unhooked requests session in Jira user-permission lookup",
+   "url": "https://osv.dev/vulnerability/GHSA-v9m3-wfh8-5646",
+   "published": "2026-09-22T20:36:31Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-w66g-j6c4-hcfc",
+   "aliases": [
+    "GHSA-w66g-j6c4-hcfc",
+    "CVE-2026-77252",
+    "CVE-2026-77251",
+    "GHSA-rqwg-9346-fjjv",
+    "PYSEC-2026-4102"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian: JIRA_PROJECTS_FILTER / CONFLUENCE_SPACES_FILTER allow forbidden-project content exfiltration (one LIVE-proven on Atlassian Cloud)",
+   "url": "https://osv.dev/vulnerability/GHSA-w66g-j6c4-hcfc",
+   "published": "2026-09-22T20:34:47Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-wrhw-j3f9-8vc6",
+   "aliases": [
+    "GHSA-wrhw-j3f9-8vc6",
+    "CVE-2026-77244",
+    "PYSEC-2026-4103"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "[mcp-atlassian] Authentication bypass in HTTP transport: AtlassianOpaqueTokenVerifier accepts any non-empty token",
+   "url": "https://osv.dev/vulnerability/GHSA-wrhw-j3f9-8vc6",
+   "published": "2026-09-22T20:36:26Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.22.0"
+  },
+  {
+   "id": "GHSA-xjgw-4wvw-rgm4",
+   "aliases": [
+    "GHSA-xjgw-4wvw-rgm4",
+    "CVE-2026-27825",
+    "PYSEC-2026-408"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-atlassian",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "MCP Atlassian has an arbitrary file write leading to arbitrary code execution via unconstrained download_path in confluence_download_attachment",
+   "url": "https://osv.dev/vulnerability/GHSA-xjgw-4wvw-rgm4",
+   "published": "2026-03-10T18:56:07Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.17.0"
+  },
+  {
+   "id": "GHSA-wvr4-3wq4-gpc5",
+   "aliases": [
+    "GHSA-wvr4-3wq4-gpc5"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-bridge",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "MCP Connect has unauthenticated remote OS command execution via /bridge endpoint",
+   "url": "https://osv.dev/vulnerability/GHSA-wvr4-3wq4-gpc5",
+   "published": "2026-03-19T12:51:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-9hgc-g3w5-67cm",
+   "aliases": [
+    "GHSA-9hgc-g3w5-67cm",
+    "CVE-2026-53708",
+    "PYSEC-2026-3684"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-contextforge-gateway",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "ContextForge: DNS TOCTOU race condition causes SSRF protection bypass (`/admin/gateways/test`)",
+   "url": "https://osv.dev/vulnerability/GHSA-9hgc-g3w5-67cm",
+   "published": "2026-08-14T19:49:14Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.3"
+  },
+  {
+   "id": "GHSA-vwf3-4xxj-qg6h",
+   "aliases": [
+    "GHSA-vwf3-4xxj-qg6h"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-contextforge-gateway",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-contextforge-gateway has Server-Side Template Injection (SSTI) leading to Remote Code Execution in `PromptService._render_template` via unsandboxed Jinja2 Environment",
+   "url": "https://osv.dev/vulnerability/GHSA-vwf3-4xxj-qg6h",
+   "published": "2026-08-25T17:42:11Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.0"
+  },
+  {
+   "id": "GHSA-xm98-3vcf-fph7",
+   "aliases": [
+    "GHSA-xm98-3vcf-fph7",
+    "CVE-2026-53710",
+    "PYSEC-2026-3862"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-contextforge-gateway",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "mcp-contextforge-gateway has RestrictedPython sandbox bypass via getattr builtin in python_sandbox_server",
+   "url": "https://osv.dev/vulnerability/GHSA-xm98-3vcf-fph7",
+   "published": "2026-08-24T19:20:58Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.2"
+  },
+  {
+   "id": "GHSA-8fxj-2g9q-8fjw",
+   "aliases": [
+    "GHSA-8fxj-2g9q-8fjw",
+    "CVE-2025-65513"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-fetch-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Fetch MCP Server has a Server-Side Request Forgery (SSRF) vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-8fxj-2g9q-8fjw",
+   "published": "2025-12-10T00:30:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-353c-v8x9-v7c3",
+   "aliases": [
+    "GHSA-353c-v8x9-v7c3",
+    "CVE-2026-39313"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-framework",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP-Framework: Unbounded memory allocation in readRequestBody allows denial of service via HTTP transport",
+   "url": "https://osv.dev/vulnerability/GHSA-353c-v8x9-v7c3",
+   "published": "2026-04-16T20:44:32Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.2.22"
+  },
+  {
+   "id": "GHSA-65h7-9wrw-629c",
+   "aliases": [
+    "GHSA-65h7-9wrw-629c",
+    "CVE-2026-59973"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-from-openapi",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
+   "url": "https://osv.dev/vulnerability/GHSA-65h7-9wrw-629c",
+   "published": "2026-09-11T22:02:04Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.5.0;1.5.0;1.5.0"
+  },
+  {
+   "id": "GHSA-v6ph-xcq9-qxxj",
+   "aliases": [
+    "GHSA-v6ph-xcq9-qxxj",
+    "CVE-2026-39885"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-from-openapi",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-from-openapi is Vulnerable to SSRF via $ref Dereferencing in Untrusted OpenAPI Specifications",
+   "url": "https://osv.dev/vulnerability/GHSA-v6ph-xcq9-qxxj",
+   "published": "2026-04-08T19:22:53Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.3.0;1.0.4;1.0.4"
+  },
+  {
+   "id": "GHSA-w2fm-25vw-vh7f",
+   "aliases": [
+    "GHSA-w2fm-25vw-vh7f"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-handler",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-handler has a tool response leak across concurrent client sessions ('Race Condition')",
+   "url": "https://osv.dev/vulnerability/GHSA-w2fm-25vw-vh7f",
+   "published": "2026-04-01T23:58:50Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.0"
+  },
+  {
+   "id": "GHSA-4hqq-7q79-932p",
+   "aliases": [
+    "GHSA-4hqq-7q79-932p",
+    "CVE-2025-59377",
+    "PYSEC-2026-409"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-kubernetes-server",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "mcp-kubernetes-server has an OS Command Injection vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-4hqq-7q79-932p",
+   "published": "2025-09-15T15:31:24Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-hjm5-xgj8-vwj6",
+   "aliases": [
+    "GHSA-hjm5-xgj8-vwj6",
+    "CVE-2025-59376",
+    "PYSEC-2026-1619"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-kubernetes-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-kubernetes-server has a Command Injection vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-hjm5-xgj8-vwj6",
+   "published": "2025-09-15T15:31:24Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-2g7v-hghf-grg4",
+   "aliases": [
+    "GHSA-2g7v-hghf-grg4",
+    "CVE-2026-2130"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-maigret",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-maigret vulnerable to command injection",
+   "url": "https://osv.dev/vulnerability/GHSA-2g7v-hghf-grg4",
+   "published": "2026-02-08T03:30:27Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.13"
+  },
+  {
+   "id": "GHSA-22v8-p7h2-rj7p",
+   "aliases": [
+    "GHSA-22v8-p7h2-rj7p",
+    "CVE-2025-5273"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-markdownify-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Markdownify MCP Server allows attackers to read arbitrary files",
+   "url": "https://osv.dev/vulnerability/GHSA-22v8-p7h2-rj7p",
+   "published": "2025-05-29T06:31:17Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-45qj-4xq3-3c45",
+   "aliases": [
+    "GHSA-45qj-4xq3-3c45",
+    "CVE-2025-58358"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-markdownify-server",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-markdownify-server vulnerable to command injection in pptx-to-markdown tool",
+   "url": "https://osv.dev/vulnerability/GHSA-45qj-4xq3-3c45",
+   "published": "2025-09-02T17:40:01Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.0.2"
+  },
+  {
+   "id": "GHSA-frq9-3hp2-xvxg",
+   "aliases": [
+    "GHSA-frq9-3hp2-xvxg",
+    "CVE-2025-5276"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-markdownify-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "Markdownify MCP Server allows Server-Side Request Forgery (SSRF) via the Markdownify.get() function",
+   "url": "https://osv.dev/vulnerability/GHSA-frq9-3hp2-xvxg",
+   "published": "2025-05-29T06:31:17Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-f7wf-v2vw-mpcx",
+   "aliases": [
+    "GHSA-f7wf-v2vw-mpcx",
+    "CVE-2026-54561"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-memory-keeper",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-memory-keeper: Arbitrary local file read in context_import via unvalidated filePath",
+   "url": "https://osv.dev/vulnerability/GHSA-f7wf-v2vw-mpcx",
+   "published": "2026-07-17T19:23:07Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.13.0"
+  },
+  {
+   "id": "GHSA-2r68-g678-7qr3",
+   "aliases": [
+    "GHSA-2r68-g678-7qr3",
+    "CVE-2026-49291",
+    "PYSEC-2026-2622"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-memory-service",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-memory-service: OAuth read-only clients can write and delete memories through MCP tools/call",
+   "url": "https://osv.dev/vulnerability/GHSA-2r68-g678-7qr3",
+   "published": "2026-06-26T21:04:38Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "10.65.3"
+  },
+  {
+   "id": "GHSA-73hc-m4hx-79pj",
+   "aliases": [
+    "GHSA-73hc-m4hx-79pj",
+    "CVE-2026-29787",
+    "PYSEC-2026-2623"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-memory-service",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-memory-service Vulnerable to System Information Disclosure via Health Endpoint",
+   "url": "https://osv.dev/vulnerability/GHSA-73hc-m4hx-79pj",
+   "published": "2026-03-05T21:42:10Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "10.21.0"
+  },
+  {
+   "id": "GHSA-84hp-mqvj-3p8h",
+   "aliases": [
+    "GHSA-84hp-mqvj-3p8h",
+    "CVE-2026-50027",
+    "PYSEC-2026-2624"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-memory-service",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "mcp-memory-service: Missing Authentication on Document API Endpoints Allows Unauthenticated Memory Read/Write/Delete",
+   "url": "https://osv.dev/vulnerability/GHSA-84hp-mqvj-3p8h",
+   "published": "2026-07-02T15:26:23Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "10.67.1"
+  },
+  {
+   "id": "GHSA-g9rg-8vq5-mpwm",
+   "aliases": [
+    "GHSA-g9rg-8vq5-mpwm",
+    "CVE-2026-33010",
+    "PYSEC-2026-2625"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-memory-service",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-memory-service's Wildcard CORS with Credentials Enables Cross-Origin Memory Theft",
+   "url": "https://osv.dev/vulnerability/GHSA-g9rg-8vq5-mpwm",
+   "published": "2026-03-07T02:12:26Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "10.25.1"
+  },
+  {
+   "id": "GHSA-vcqx-v2mg-7chx",
+   "aliases": [
+    "GHSA-vcqx-v2mg-7chx",
+    "CVE-2025-10193",
+    "PYSEC-2026-1620"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-neo4j-cypher",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Neo4j Cypher MCP server is vulnerable to DNS rebinding",
+   "url": "https://osv.dev/vulnerability/GHSA-vcqx-v2mg-7chx",
+   "published": "2025-09-11T23:26:00Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.0"
+  },
+  {
+   "id": "GHSA-x3cv-r3g3-fpg9",
+   "aliases": [
+    "GHSA-x3cv-r3g3-fpg9",
+    "CVE-2026-35402",
+    "PYSEC-2026-2626"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-neo4j-cypher",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "Neo4j Labs MCP Servers: SSRF and Data Modification via read_only Mode Bypass Through CALL Procedures",
+   "url": "https://osv.dev/vulnerability/GHSA-x3cv-r3g3-fpg9",
+   "published": "2026-04-17T21:30:50Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.6.0"
+  },
+  {
+   "id": "GHSA-xc68-rrqc-qgq3",
+   "aliases": [
+    "GHSA-xc68-rrqc-qgq3",
+    "CVE-2026-3484"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-nmap-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP NMAP Server has an Injection vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-xc68-rrqc-qgq3",
+   "published": "2026-03-03T21:31:16Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-vf9j-h32g-2764",
+   "aliases": [
+    "GHSA-vf9j-h32g-2764",
+    "CVE-2025-54073"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-package-docs",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-package-docs vulnerable to command injection in several tools",
+   "url": "https://osv.dev/vulnerability/GHSA-vf9j-h32g-2764",
+   "published": "2025-08-05T14:12:33Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.28"
+  },
+  {
+   "id": "GHSA-73cv-556c-w3g6",
+   "aliases": [
+    "GHSA-73cv-556c-w3g6",
+    "CVE-2026-49257",
+    "PYSEC-2026-410"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-pinot-server",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "mcp-pinot: Unauthenticated tool invocation via default oauth_enabled=False + host 0.0.0.0 bind",
+   "url": "https://osv.dev/vulnerability/GHSA-73cv-556c-w3g6",
+   "published": "2026-06-26T21:05:43Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.1.0"
+  },
+  {
+   "id": "GHSA-6xpm-ggf7-wc3p",
+   "aliases": [
+    "GHSA-6xpm-ggf7-wc3p",
+    "CVE-2025-6514"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-remote",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "mcp-remote exposed to OS command injection via untrusted MCP server connections",
+   "url": "https://osv.dev/vulnerability/GHSA-6xpm-ggf7-wc3p",
+   "published": "2025-07-09T15:30:44Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.16"
+  },
+  {
+   "id": "GHSA-6fgp-m6q4-j3q5",
+   "aliases": [
+    "GHSA-6fgp-m6q4-j3q5",
+    "CVE-2026-25904",
+    "PYSEC-2026-2627"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-run-python",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Run Python Deno Sandbox Misconfiguration Allows SSRF Attacks via Localhost Access",
+   "url": "https://osv.dev/vulnerability/GHSA-6fgp-m6q4-j3q5",
+   "published": "2026-02-09T09:30:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-pfv4-wmph-5gc6",
+   "aliases": [
+    "GHSA-pfv4-wmph-5gc6",
+    "CVE-2026-25905",
+    "PYSEC-2026-2628"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-run-python",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Run Python has a Sandbox Escape & Server Takeover Vulnerability",
+   "url": "https://osv.dev/vulnerability/GHSA-pfv4-wmph-5gc6",
+   "published": "2026-02-09T09:30:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-vf6j-c56p-cq58",
+   "aliases": [
+    "GHSA-vf6j-c56p-cq58",
+    "CVE-2026-25650",
+    "PYSEC-2026-2629"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-salesforce-connector",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP-Salesforce's arbitrary attribute access leads to disclosure of Salesforce auth token",
+   "url": "https://osv.dev/vulnerability/GHSA-vf6j-c56p-cq58",
+   "published": "2026-02-06T18:52:44Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.10"
+  },
+  {
+   "id": "GHSA-hjwh-xvfw-qrwj",
+   "aliases": [
+    "GHSA-hjwh-xvfw-qrwj"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-searxng",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
+   "url": "https://osv.dev/vulnerability/GHSA-hjwh-xvfw-qrwj",
+   "published": "2026-08-19T19:32:46Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.12.0"
+  },
+  {
+   "id": "GHSA-mrvx-jmjw-vggc",
+   "aliases": [
+    "GHSA-mrvx-jmjw-vggc",
+    "CVE-2026-58485"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-searxng",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "SearXNG MCP Server: DNS-resolved Private Hostname SSRF in `web_url_read`",
+   "url": "https://osv.dev/vulnerability/GHSA-mrvx-jmjw-vggc",
+   "published": "2026-06-19T21:42:46Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.7.1"
+  },
+  {
+   "id": "GHSA-q87f-qc2r-2gw4",
+   "aliases": [
+    "GHSA-q87f-qc2r-2gw4",
+    "CVE-2026-54688"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-searxng",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "SearXNG MCP Server is Vulnerable to SSRF in web_url_read: the internal-address guard is disabled by default (MCP_HTTP_HARDEN off)",
+   "url": "https://osv.dev/vulnerability/GHSA-q87f-qc2r-2gw4",
+   "published": "2026-08-19T19:23:08Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.2.1"
+  },
+  {
+   "id": "GHSA-wppf-h75h-6pm6",
+   "aliases": [
+    "GHSA-wppf-h75h-6pm6",
+    "CVE-2026-54689"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-searxng",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "SearXNG MCP Server: Additional hardened-mode SSRF bypasses",
+   "url": "https://osv.dev/vulnerability/GHSA-wppf-h75h-6pm6",
+   "published": "2026-08-19T19:23:16Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.2.1"
+  },
+  {
+   "id": "GHSA-xcqx-9jf5-w339",
+   "aliases": [
+    "GHSA-xcqx-9jf5-w339",
+    "CVE-2026-58483"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-searxng",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "SearXNG MCP Server: Unbounded Response Body Read Bypasses URL Size Limit in `web_url_read`",
+   "url": "https://osv.dev/vulnerability/GHSA-xcqx-9jf5-w339",
+   "published": "2026-06-19T21:42:43Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.7.1"
+  },
+  {
+   "id": "GHSA-5cgr-j3jf-jw3v",
+   "aliases": [
+    "GHSA-5cgr-j3jf-jw3v",
+    "CVE-2025-68143",
+    "PYSEC-2026-1621"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-server-git",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-server-git's unrestricted git_init tool allows repository creation at arbitrary filesystem locations",
+   "url": "https://osv.dev/vulnerability/GHSA-5cgr-j3jf-jw3v",
+   "published": "2025-12-17T19:49:54Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2025.9.25"
+  },
+  {
+   "id": "GHSA-9xwc-hfwc-8w59",
+   "aliases": [
+    "GHSA-9xwc-hfwc-8w59",
+    "CVE-2025-68144",
+    "PYSEC-2026-1622"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-server-git",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-server-git argument injection in git_diff and git_checkout functions allows overwriting local files",
+   "url": "https://osv.dev/vulnerability/GHSA-9xwc-hfwc-8w59",
+   "published": "2025-12-17T22:50:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2025.12.18"
+  },
+  {
+   "id": "GHSA-j22h-9j4x-23w5",
+   "aliases": [
+    "GHSA-j22h-9j4x-23w5",
+    "CVE-2025-68145",
+    "PYSEC-2026-1623"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-server-git",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-server-git has missing path validation when using --repository flag",
+   "url": "https://osv.dev/vulnerability/GHSA-j22h-9j4x-23w5",
+   "published": "2025-12-17T22:50:38Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2025.12.18"
+  },
+  {
+   "id": "GHSA-vjqx-cfc4-9h6v",
+   "aliases": [
+    "GHSA-vjqx-cfc4-9h6v",
+    "CVE-2026-27735",
+    "PYSEC-2026-2630"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-server-git",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-server-git : Path traversal in git_add allows staging files outside repository boundaries",
+   "url": "https://osv.dev/vulnerability/GHSA-vjqx-cfc4-9h6v",
+   "published": "2026-02-26T15:16:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2026.1.14"
+  },
+  {
+   "id": "GHSA-4xqg-gf5c-ghwq",
+   "aliases": [
+    "GHSA-4xqg-gf5c-ghwq",
+    "CVE-2026-39884"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-server-kubernetes",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Server Kubernetes has an Argument Injection in port_forward tool via space-splitting",
+   "url": "https://osv.dev/vulnerability/GHSA-4xqg-gf5c-ghwq",
+   "published": "2026-04-14T22:32:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.5.0"
+  },
+  {
+   "id": "GHSA-6mx4-4h42-r8vh",
+   "aliases": [
+    "GHSA-6mx4-4h42-r8vh",
+    "CVE-2026-47250"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-server-kubernetes",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Server Kubernetes: kubectl-generic flag injection enables Kubernetes bearer token exfiltration",
+   "url": "https://osv.dev/vulnerability/GHSA-6mx4-4h42-r8vh",
+   "published": "2026-06-05T15:40:00Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.7.0"
+  },
+  {
+   "id": "GHSA-cr22-wjx7-2w6m",
+   "aliases": [
+    "GHSA-cr22-wjx7-2w6m",
+    "CVE-2026-46519"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-server-kubernetes",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Server Kubernetes: Tool Access Control Bypass via Presentation-Layer Filtering Without Execution-Layer Enforcement",
+   "url": "https://osv.dev/vulnerability/GHSA-cr22-wjx7-2w6m",
+   "published": "2026-05-21T20:33:46Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.6.0"
+  },
+  {
+   "id": "GHSA-gjv4-ghm7-q58q",
+   "aliases": [
+    "GHSA-gjv4-ghm7-q58q",
+    "CVE-2025-53355"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-server-kubernetes",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Server Kubernetes vulnerable to command injection in several tools",
+   "url": "https://osv.dev/vulnerability/GHSA-gjv4-ghm7-q58q",
+   "published": "2025-07-08T20:47:53Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.5.0"
+  },
+  {
+   "id": "GHSA-wmg3-h8mf-wgvr",
+   "aliases": [
+    "GHSA-wmg3-h8mf-wgvr",
+    "CVE-2026-61459",
+    "PYSEC-2026-3685"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-server-kubernetes",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "mcp-server-kubernetes argument injection can expose Kubernetes cluster credentials",
+   "url": "https://osv.dev/vulnerability/GHSA-wmg3-h8mf-wgvr",
+   "published": "2026-07-10T21:32:32Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.9.0"
+  },
+  {
+   "id": "GHSA-wvxp-jp4w-w8wg",
+   "aliases": [
+    "GHSA-wvxp-jp4w-w8wg",
+    "CVE-2025-66404"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-server-kubernetes",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-server-kubernetes has potential security issue in exec_in_pod tool",
+   "url": "https://osv.dev/vulnerability/GHSA-wvxp-jp4w-w8wg",
+   "published": "2025-12-03T20:44:45Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.9.8"
+  },
+  {
+   "id": "GHSA-86hp-qxqp-w9wv",
+   "aliases": [
+    "GHSA-86hp-qxqp-w9wv",
+    "CVE-2026-7446"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-server-semgrep",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-server-semgrep has a Command Injection issue",
+   "url": "https://osv.dev/vulnerability/GHSA-86hp-qxqp-w9wv",
+   "published": "2026-04-30T00:31:22Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.1"
+  },
+  {
+   "id": "GHSA-95hg-3c55-xf9x",
+   "aliases": [
+    "GHSA-95hg-3c55-xf9x",
+    "CVE-2026-5833"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-server-taskwarrior",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "awwaiid mcp-server-taskwarrior vulnerable to command injection",
+   "url": "https://osv.dev/vulnerability/GHSA-95hg-3c55-xf9x",
+   "published": "2026-04-09T06:30:27Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-j7h9-2jh7-g967",
+   "aliases": [
+    "GHSA-j7h9-2jh7-g967"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-ssh-tool",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "mcp-ssh-tool has file transfer path policy bypass and bearer token comparison hardening",
+   "url": "https://osv.dev/vulnerability/GHSA-j7h9-2jh7-g967",
+   "published": "2026-05-07T21:45:16Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.1"
+  },
+  {
+   "id": "GHSA-h7xc-4mv8-59fj",
+   "aliases": [
+    "GHSA-h7xc-4mv8-59fj",
+    "CVE-2026-7158",
+    "PYSEC-2026-2631"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp-url-downloader",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcp-url-downloader has a Server-Side Request Forgery issue",
+   "url": "https://osv.dev/vulnerability/GHSA-h7xc-4mv8-59fj",
+   "published": "2026-04-27T21:31:03Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-27m7-ffhq-jqrm",
+   "aliases": [
+    "GHSA-27m7-ffhq-jqrm",
+    "CVE-2025-66401"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-watch",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "MCP Watch has a Critical Command Injection in cloneRepo allows Remote Code Execution (RCE) via malicious URL",
+   "url": "https://osv.dev/vulnerability/GHSA-27m7-ffhq-jqrm",
+   "published": "2025-12-02T00:38:14Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "affected": "<= 0.1.2"
+  },
+  {
+   "id": "GHSA-3qhf-m339-9g5v",
+   "aliases": [
+    "GHSA-3qhf-m339-9g5v",
+    "CVE-2025-53366",
+    "PYSEC-2026-1616"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Python SDK vulnerability in the FastMCP Server causes validation error, leading to DoS",
+   "url": "https://osv.dev/vulnerability/GHSA-3qhf-m339-9g5v",
+   "published": "2025-07-04T22:06:49Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.9.4"
+  },
+  {
+   "id": "GHSA-84m7-p3x7-pcfv",
+   "aliases": [
+    "GHSA-84m7-p3x7-pcfv",
+    "CVE-2026-59951"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "MCP Python SDK: Unbounded Session Accumulation in StreamableHTTP Transport Enables Resource Exhaustion",
+   "url": "https://osv.dev/vulnerability/GHSA-84m7-p3x7-pcfv",
+   "published": "2026-10-15T20:13:13Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.30.0;2.2.0"
+  },
+  {
+   "id": "GHSA-9h52-p55h-vw2f",
+   "aliases": [
+    "GHSA-9h52-p55h-vw2f",
+    "CVE-2025-66416",
+    "PYSEC-2026-1617"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Model Context Protocol (MCP) Python SDK does not enable DNS rebinding protection by default",
+   "url": "https://osv.dev/vulnerability/GHSA-9h52-p55h-vw2f",
+   "published": "2025-12-02T16:52:08Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.23.0"
+  },
+  {
+   "id": "GHSA-hvrp-rf83-w775",
+   "aliases": [
+    "GHSA-hvrp-rf83-w775",
+    "CVE-2026-52870",
+    "PYSEC-2026-3481"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Python SDK: Experimental task handlers allow any client to access and cancel other clients' tasks",
+   "url": "https://osv.dev/vulnerability/GHSA-hvrp-rf83-w775",
+   "published": "2026-07-16T19:56:12Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.27.2"
+  },
+  {
+   "id": "GHSA-j975-95f5-7wqh",
+   "aliases": [
+    "GHSA-j975-95f5-7wqh",
+    "CVE-2025-53365",
+    "PYSEC-2026-1618"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Python SDK has Unhandled Exception in Streamable HTTP Transport, Leading to Denial of Service",
+   "url": "https://osv.dev/vulnerability/GHSA-j975-95f5-7wqh",
+   "published": "2025-07-04T22:06:31Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.10.0"
+  },
+  {
+   "id": "GHSA-jpw9-pfvf-9f58",
+   "aliases": [
+    "GHSA-jpw9-pfvf-9f58",
+    "CVE-2026-52869",
+    "PYSEC-2026-3482"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Python SDK: HTTP transports serve session requests without verifying the authenticated principal",
+   "url": "https://osv.dev/vulnerability/GHSA-jpw9-pfvf-9f58",
+   "published": "2026-07-16T19:58:53Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.27.2"
+  },
+  {
+   "id": "GHSA-vj7q-gjh5-988w",
+   "aliases": [
+    "GHSA-vj7q-gjh5-988w",
+    "CVE-2026-59950",
+    "PYSEC-2026-3483"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP Python SDK: WebSocket server transport does not support Host/Origin validation",
+   "url": "https://osv.dev/vulnerability/GHSA-vj7q-gjh5-988w",
+   "published": "2026-07-16T20:14:34Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.28.1"
+  },
+  {
+   "id": "GHSA-3jmq-qhg3-f58j",
+   "aliases": [
+    "GHSA-3jmq-qhg3-f58j",
+    "CVE-2026-7404",
+    "PYSEC-2026-2632"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcpo-simple-server",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mcpo-simple-server has a Path Traversal issue",
+   "url": "https://osv.dev/vulnerability/GHSA-3jmq-qhg3-f58j",
+   "published": "2026-04-29T21:31:31Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-2v2f-mvfg-ph56",
+   "aliases": [
+    "GHSA-2v2f-mvfg-ph56",
+    "CVE-2026-54547",
+    "PYSEC-2026-3484"
+   ],
+   "ecosystem": "PyPI",
+   "package": "meta-ads-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "meta-ads-mcp: X-Pipeboard-Token Header Auth Bypass Reuses Operator Meta Token",
+   "url": "https://osv.dev/vulnerability/GHSA-2v2f-mvfg-ph56",
+   "published": "2026-07-17T18:48:54Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.115"
+  },
+  {
+   "id": "GHSA-45gf-fjxp-cjpq",
+   "aliases": [
+    "GHSA-45gf-fjxp-cjpq",
+    "CVE-2026-54549",
+    "PYSEC-2026-3485"
+   ],
+   "ecosystem": "PyPI",
+   "package": "meta-ads-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "meta-ads-mcp: Server-Side Request Forgery (SSRF) in `upload_ad_image` via Unrestricted `image_url` Fetch",
+   "url": "https://osv.dev/vulnerability/GHSA-45gf-fjxp-cjpq",
+   "published": "2026-07-17T18:47:31Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.115"
+  },
+  {
+   "id": "GHSA-9gw6-46qc-99vr",
+   "aliases": [
+    "GHSA-9gw6-46qc-99vr",
+    "CVE-2026-48039",
+    "PYSEC-2026-413"
+   ],
+   "ecosystem": "PyPI",
+   "package": "meta-ads-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Meta Ads MCP: Unauthenticated HTTP MCP Tool Execution Leaks Operator Meta Access Token",
+   "url": "https://osv.dev/vulnerability/GHSA-9gw6-46qc-99vr",
+   "published": "2026-06-11T13:28:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.0.109"
+  },
+  {
+   "id": "GHSA-wfr3-hf93-qgg3",
+   "aliases": [
+    "GHSA-wfr3-hf93-qgg3",
+    "CVE-2026-7159",
+    "PYSEC-2026-2653"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mkdocs-mcp-plugin",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "mkdocs-mcp-plugin has a Path Traversal issue",
+   "url": "https://osv.dev/vulnerability/GHSA-wfr3-hf93-qgg3",
+   "published": "2026-04-28T00:31:40Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-mvq4-39wx-6h5g",
+   "aliases": [
+    "GHSA-mvq4-39wx-6h5g",
+    "CVE-2026-11529",
+    "PYSEC-2026-3579"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mysql-mcp-server",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "MySQL MCP Server is Vulnerable to SQL Injection Through its mysql URI Handler",
+   "url": "https://osv.dev/vulnerability/GHSA-mvq4-39wx-6h5g",
+   "published": "2026-06-08T18:31:48Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.3.0"
+  },
+  {
+   "id": "GHSA-rqfv-2mw9-78g2",
+   "aliases": [
+    "GHSA-rqfv-2mw9-78g2",
+    "CVE-2026-59971",
+    "PYSEC-2026-4109"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mysql-mcp-server",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "MySQL MCP Server: Missing Origin/Host Validation in SSE Transport Enables Unauthenticated SQL Execution (DNS Rebinding / Direct Exposure)",
+   "url": "https://osv.dev/vulnerability/GHSA-rqfv-2mw9-78g2",
+   "published": "2026-09-11T20:35:42Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.4.2"
+  },
+  {
+   "id": "GHSA-2cf7-hpwf-47h9",
+   "aliases": [
+    "GHSA-2cf7-hpwf-47h9",
+    "CVE-2026-55608"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "n8n-MCP: Incorrect authorization can expose default-scope workflow version backups in multi-tenant HTTP mode",
+   "url": "https://osv.dev/vulnerability/GHSA-2cf7-hpwf-47h9",
+   "published": "2026-07-14T20:26:39Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.57.4"
+  },
+  {
+   "id": "GHSA-4ggg-h7ph-26qr",
+   "aliases": [
+    "GHSA-4ggg-h7ph-26qr",
+    "CVE-2026-39974"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n-mcp has authenticated SSRF via instance-URL header in multi-tenant HTTP mode",
+   "url": "https://osv.dev/vulnerability/GHSA-4ggg-h7ph-26qr",
+   "published": "2026-04-08T19:53:48Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.47.4"
+  },
+  {
+   "id": "GHSA-56c3-vfp2-5qqj",
+   "aliases": [
+    "GHSA-56c3-vfp2-5qqj",
+    "CVE-2026-42449"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n-mcp's IPv4-mapped IPv6 addresses bypass SSRF protection in validateUrlSync(), enabling full SSRF for SDK embedders",
+   "url": "https://osv.dev/vulnerability/GHSA-56c3-vfp2-5qqj",
+   "published": "2026-04-30T18:12:54Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.47.14"
+  },
+  {
+   "id": "GHSA-75hx-xj24-mqrw",
+   "aliases": [
+    "GHSA-75hx-xj24-mqrw"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n-mcp has unauthenticated session termination and information disclosure in HTTP transport",
+   "url": "https://osv.dev/vulnerability/GHSA-75hx-xj24-mqrw",
+   "published": "2026-04-10T20:59:58Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.47.6"
+  },
+  {
+   "id": "GHSA-8g7g-hmwm-6rv2",
+   "aliases": [
+    "GHSA-8g7g-hmwm-6rv2"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n-mcp affected by path traversal, redirect-following SSRF, and telemetry payload exposure",
+   "url": "https://osv.dev/vulnerability/GHSA-8g7g-hmwm-6rv2",
+   "published": "2026-05-08T17:00:09Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.50.1"
+  },
+  {
+   "id": "GHSA-cmrh-wvq6-wm9r",
+   "aliases": [
+    "GHSA-cmrh-wvq6-wm9r",
+    "CVE-2026-44694"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n-mcp webhook and API client paths has an authenticated SSRF",
+   "url": "https://osv.dev/vulnerability/GHSA-cmrh-wvq6-wm9r",
+   "published": "2026-05-08T16:59:17Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.50.2"
+  },
+  {
+   "id": "GHSA-f3rg-xqjj-cj9w",
+   "aliases": [
+    "GHSA-f3rg-xqjj-cj9w",
+    "CVE-2026-45582"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "n8n-MCP: Workflow telemetry sanitizer could retain partial values from URL-shaped node parameters",
+   "url": "https://osv.dev/vulnerability/GHSA-f3rg-xqjj-cj9w",
+   "published": "2026-05-18T13:26:51Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.51.3"
+  },
+  {
+   "id": "GHSA-j6r7-6fhx-77wx",
+   "aliases": [
+    "GHSA-j6r7-6fhx-77wx",
+    "CVE-2026-54052"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "n8n-MCP: Cross-tenant access to workflow version backups in multi-tenant HTTP deployments",
+   "url": "https://osv.dev/vulnerability/GHSA-j6r7-6fhx-77wx",
+   "published": "2026-07-14T19:07:14Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.56.1"
+  },
+  {
+   "id": "GHSA-jxx9-px88-pj69",
+   "aliases": [
+    "GHSA-jxx9-px88-pj69",
+    "CVE-2026-45707"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n-MCP: Multi-tenant MCP requests fall back to process-level n8n credentials when tenant headers are absent or incomplete",
+   "url": "https://osv.dev/vulnerability/GHSA-jxx9-px88-pj69",
+   "published": "2026-05-18T17:41:42Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.51.2"
+  },
+  {
+   "id": "GHSA-pfm2-2mhg-8wpx",
+   "aliases": [
+    "GHSA-pfm2-2mhg-8wpx",
+    "CVE-2026-41495"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "n8n-MCP Logs Sensitive Request Data on Unauthorized /mcp Requests",
+   "url": "https://osv.dev/vulnerability/GHSA-pfm2-2mhg-8wpx",
+   "published": "2026-04-23T14:31:46Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.47.11"
+  },
+  {
+   "id": "GHSA-wg4g-395p-mqv3",
+   "aliases": [
+    "GHSA-wg4g-395p-mqv3",
+    "CVE-2026-42282"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "n8n-MCP: Sensitive MCP tool-call arguments logged on authenticated requests in HTTP mode",
+   "url": "https://osv.dev/vulnerability/GHSA-wg4g-395p-mqv3",
+   "published": "2026-04-25T23:35:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.47.13"
+  },
+  {
+   "id": "GHSA-49m9-pgww-9vq6",
+   "aliases": [
+    "GHSA-49m9-pgww-9vq6",
+    "CVE-2026-42236"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n Vulnerable to Unauthenticated Denial of Service via MCP Client Registration",
+   "url": "https://osv.dev/vulnerability/GHSA-49m9-pgww-9vq6",
+   "published": "2026-04-29T21:19:07Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.123.32;2.18.1;2.17.4"
+  },
+  {
+   "id": "GHSA-537j-gqpc-p7fq",
+   "aliases": [
+    "GHSA-537j-gqpc-p7fq",
+    "CVE-2026-42235"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n Vulnerable to XSS via MCP OAuth client",
+   "url": "https://osv.dev/vulnerability/GHSA-537j-gqpc-p7fq",
+   "published": "2026-04-29T21:23:04Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.123.32;2.18.1;2.17.4"
+  },
+  {
+   "id": "GHSA-h44j-f5r5-ph73",
+   "aliases": [
+    "GHSA-h44j-f5r5-ph73",
+    "CVE-2026-59207"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "n8n: \"Allowed HTTP Request Domains\" Restriction Bypass via AI Agents MCP Connector",
+   "url": "https://osv.dev/vulnerability/GHSA-h44j-f5r5-ph73",
+   "published": "2026-07-22T21:58:31Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.28.1;2.27.4"
+  },
+  {
+   "id": "GHSA-q5xf-xhwf-cwqf",
+   "aliases": [
+    "GHSA-q5xf-xhwf-cwqf",
+    "CVE-2026-65594"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "n8n: Member-Level Users Can Execute Other Users' MCP Server Trigger Workflows via Missing OAuth Authorization Check",
+   "url": "https://osv.dev/vulnerability/GHSA-q5xf-xhwf-cwqf",
+   "published": "2026-07-22T22:31:01Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.30.1;2.29.8"
+  },
+  {
+   "id": "GHSA-vhf8-cg2h-cg3p",
+   "aliases": [
+    "GHSA-vhf8-cg2h-cg3p",
+    "CVE-2026-72768",
+    "GHSA-xv2r-whj9-7vqh"
+   ],
+   "ecosystem": "npm",
+   "package": "n8n",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "n8n: SSRF Protection Bypass via MCP Client Node",
+   "url": "https://osv.dev/vulnerability/GHSA-vhf8-cg2h-cg3p",
+   "published": "2026-07-22T22:07:04Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.32.1;2.31.5"
+  },
+  {
+   "id": "GHSA-hxpf-9xvq-wph8",
+   "aliases": [
+    "GHSA-hxpf-9xvq-wph8",
+    "CVE-2026-57496",
+    "PYSEC-2026-3489"
+   ],
+   "ecosystem": "PyPI",
+   "package": "netlicensing-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "netlicensing-mcp: REST Path Traversal Bypasses Token Redaction",
+   "url": "https://osv.dev/vulnerability/GHSA-hxpf-9xvq-wph8",
+   "published": "2026-06-18T17:22:02Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.8"
+  },
+  {
+   "id": "GHSA-x9vc-9ffq-p3gj",
+   "aliases": [
+    "GHSA-x9vc-9ffq-p3gj",
+    "CVE-2026-54446",
+    "PYSEC-2026-3490"
+   ],
+   "ecosystem": "PyPI",
+   "package": "netlicensing-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "NetLicensing-MCP: Unauthenticated Use of Server-Side NetLicensing API Key in HTTP Mode",
+   "url": "https://osv.dev/vulnerability/GHSA-x9vc-9ffq-p3gj",
+   "published": "2026-07-14T20:47:19Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.1.6"
+  },
+  {
+   "id": "GHSA-fj4g-2p96-q6m3",
+   "aliases": [
+    "GHSA-fj4g-2p96-q6m3",
+    "CVE-2026-42856"
+   ],
+   "ecosystem": "npm",
+   "package": "network-ai",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Network-AI missing authentication on MCP HTTP endpoint, which allows unauthenticated privileged tool calls",
+   "url": "https://osv.dev/vulnerability/GHSA-fj4g-2p96-q6m3",
+   "published": "2026-05-05T17:25:37Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "5.1.3"
+  },
+  {
+   "id": "GHSA-j3vx-cx2r-pvg8",
+   "aliases": [
+    "GHSA-j3vx-cx2r-pvg8",
+    "CVE-2026-46701"
+   ],
+   "ecosystem": "npm",
+   "package": "network-ai",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Network-AI: Unauthenticated Cross-Origin MCP Tool Invocation via Empty Default Secret",
+   "url": "https://osv.dev/vulnerability/GHSA-j3vx-cx2r-pvg8",
+   "published": "2026-05-21T22:39:59Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "5.4.5"
+  },
+  {
+   "id": "GHSA-r78r-rwrf-rjwp",
+   "aliases": [
+    "GHSA-r78r-rwrf-rjwp",
+    "CVE-2026-48814"
+   ],
+   "ecosystem": "npm",
+   "package": "network-ai",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Network-AI: CVE-2026-46701 fix incomplete — empty default secret still authorizes all requests",
+   "url": "https://osv.dev/vulnerability/GHSA-r78r-rwrf-rjwp",
+   "published": "2026-06-19T13:34:24Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "5.7.2"
+  },
+  {
+   "id": "GHSA-gvpp-v77h-5w8g",
+   "aliases": [
+    "GHSA-gvpp-v77h-5w8g",
+    "CVE-2026-49986",
+    "PYSEC-2026-2676"
+   ],
+   "ecosystem": "PyPI",
+   "package": "neuro-cortex-memory",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Cortex has Untrusted Project Bootstrap Code Execution via `CLAUDE_PROJECT_DIR`",
+   "url": "https://osv.dev/vulnerability/GHSA-gvpp-v77h-5w8g",
+   "published": "2026-07-01T18:41:35Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "3.18.0"
+  },
+  {
+   "id": "GHSA-8vh3-g2qg-2h2c",
+   "aliases": [
+    "GHSA-8vh3-g2qg-2h2c",
+    "CVE-2026-55640",
+    "PYSEC-2026-3866"
+   ],
+   "ecosystem": "PyPI",
+   "package": "nextcloud-mcp-server",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "nextcloud-mcp-server: Unauthenticated `POST /webhooks/nextcloud` allows arbitrary vector data deletion when `WEBHOOK_SECRET` is unset ( default )",
+   "url": "https://osv.dev/vulnerability/GHSA-8vh3-g2qg-2h2c",
+   "published": "2026-08-25T16:04:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.117.2"
+  },
+  {
+   "id": "GHSA-39w2-rjm5-chcv",
+   "aliases": [
+    "GHSA-39w2-rjm5-chcv",
+    "CVE-2026-94486"
+   ],
+   "ecosystem": "npm",
+   "package": "next",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "Next.js has information disclosure in development server's Model Context Protocol endpoint",
+   "url": "https://osv.dev/vulnerability/GHSA-39w2-rjm5-chcv",
+   "published": "2026-10-07T20:31:51Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "16.3.8"
+  },
+  {
+   "id": "GHSA-5w57-2ccq-8w95",
+   "aliases": [
+    "GHSA-5w57-2ccq-8w95",
+    "CVE-2025-53372"
+   ],
+   "ecosystem": "npm",
+   "package": "node-code-sandbox-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Node.js Sandbox MCP Server vulnerability can lead to Sandbox Escape via Command Injection",
+   "url": "https://osv.dev/vulnerability/GHSA-5w57-2ccq-8w95",
+   "published": "2025-07-08T16:27:18Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.3.0"
+  },
+  {
+   "id": "GHSA-vc5j-42hh-j3mr",
+   "aliases": [
+    "GHSA-vc5j-42hh-j3mr",
+    "CVE-2026-7212",
+    "PYSEC-2026-2684"
+   ],
+   "ecosystem": "PyPI",
+   "package": "notes-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "notes-mcp has a Path Traversal issue",
+   "url": "https://osv.dev/vulnerability/GHSA-vc5j-42hh-j3mr",
+   "published": "2026-04-28T03:31:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-8pqq-224h-x875",
+   "aliases": [
+    "GHSA-8pqq-224h-x875"
+   ],
+   "ecosystem": "PyPI",
+   "package": "ogham-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "ogham-mcp had credentials embedded in published PyPI sdists -- Neon postgres URLs and Voyage API key",
+   "url": "https://osv.dev/vulnerability/GHSA-8pqq-224h-x875",
+   "published": "2026-05-05T00:03:48Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.11.1"
+  },
+  {
+   "id": "GHSA-jrrm-9hc7-2v3h",
+   "aliases": [
+    "GHSA-jrrm-9hc7-2v3h",
+    "CVE-2026-62674",
+    "PYSEC-2026-3874"
+   ],
+   "ecosystem": "PyPI",
+   "package": "omnigent",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Omnigent: Shared Agent Bundle Overwrite Leads to Authenticated Runner RCE",
+   "url": "https://osv.dev/vulnerability/GHSA-jrrm-9hc7-2v3h",
+   "published": "2026-09-02T21:55:11Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.3.0"
+  },
+  {
+   "id": "GHSA-v228-72c7-fx8j",
+   "aliases": [
+    "GHSA-v228-72c7-fx8j",
+    "CVE-2026-42260"
+   ],
+   "ecosystem": "npm",
+   "package": "open-websearch",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "open-websearch has SSRF in `fetchWebContent` MCP tool: bracketed IPv6 literals and non-resolving hostname check bypass `isPrivateOrLocalHostname`",
+   "url": "https://osv.dev/vulnerability/GHSA-v228-72c7-fx8j",
+   "published": "2026-05-05T20:51:45Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2.1.7"
+  },
+  {
+   "id": "GHSA-4pcg-253r-rf9w",
+   "aliases": [
+    "GHSA-4pcg-253r-rf9w",
+    "CVE-2026-45350",
+    "PYSEC-2026-2700"
+   ],
+   "ecosystem": "PyPI",
+   "package": "open-webui",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Open WebUI's chat completion API allows tool restrictions to be bypassed",
+   "url": "https://osv.dev/vulnerability/GHSA-4pcg-253r-rf9w",
+   "published": "2026-05-14T20:24:48Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.8.6"
+  },
+  {
+   "id": "GHSA-6fvr-66p3-3qj4",
+   "aliases": [
+    "GHSA-6fvr-66p3-3qj4",
+    "CVE-2026-53814"
+   ],
+   "ecosystem": "npm",
+   "package": "openclaw",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "OpenClaw: Hook-triggered CLI runs could receive owner MCP tool authority",
+   "url": "https://osv.dev/vulnerability/GHSA-6fvr-66p3-3qj4",
+   "published": "2026-07-02T16:05:03Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2026.5.20"
+  },
+  {
+   "id": "GHSA-7jm2-g593-4qrc",
+   "aliases": [
+    "GHSA-7jm2-g593-4qrc",
+    "CVE-2026-45001",
+    "GHSA-9fc9-8v4x-f5cp"
+   ],
+   "ecosystem": "npm",
+   "package": "openclaw",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "OpenClaw: Agent gateway config mutations could change protected operator settings",
+   "url": "https://osv.dev/vulnerability/GHSA-7jm2-g593-4qrc",
+   "published": "2026-04-25T23:51:11Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2026.4.20"
+  },
+  {
+   "id": "GHSA-jjgj-cpp9-cvpv",
+   "aliases": [
+    "GHSA-jjgj-cpp9-cvpv"
+   ],
+   "ecosystem": "npm",
+   "package": "openclaw",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "OpenClaw Vulnerable to Local File Exfiltration via MCP Tool Result MEDIA: Directive Injection",
+   "url": "https://osv.dev/vulnerability/GHSA-jjgj-cpp9-cvpv",
+   "published": "2026-03-04T19:28:11Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2026.2.21"
+  },
+  {
+   "id": "GHSA-mj59-h3q9-ghfh",
+   "aliases": [
+    "GHSA-mj59-h3q9-ghfh",
+    "CVE-2026-44995"
+   ],
+   "ecosystem": "npm",
+   "package": "openclaw",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "OpenClaw: MCP stdio server env could load dangerous startup variables from workspace config",
+   "url": "https://osv.dev/vulnerability/GHSA-mj59-h3q9-ghfh",
+   "published": "2026-04-25T23:48:03Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2026.4.20"
+  },
+  {
+   "id": "GHSA-rjxq-qqhf-8hwh",
+   "aliases": [
+    "GHSA-rjxq-qqhf-8hwh",
+    "CVE-2026-53840"
+   ],
+   "ecosystem": "npm",
+   "package": "openclaw",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "OpenClaw: MCP Streamable HTTP redirects could forward configured custom headers to another origin",
+   "url": "https://osv.dev/vulnerability/GHSA-rjxq-qqhf-8hwh",
+   "published": "2026-06-17T17:55:06Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "2026.5.12"
+  },
+  {
+   "id": "GHSA-52vm-mxx8-f227",
+   "aliases": [
+    "GHSA-52vm-mxx8-f227"
+   ],
+   "ecosystem": "PyPI",
+   "package": "phantom-audio",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Phantom: Arbitrary file write and decode-bomb DoS via unconfined MCP tool paths",
+   "url": "https://osv.dev/vulnerability/GHSA-52vm-mxx8-f227",
+   "published": "2026-07-09T13:37:34Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.3.1"
+  },
+  {
+   "id": "GHSA-pxhg-7xr2-w7xg",
+   "aliases": [
+    "GHSA-pxhg-7xr2-w7xg",
+    "CVE-2026-42080",
+    "PYSEC-2026-2894"
+   ],
+   "ecosystem": "PyPI",
+   "package": "pptagent",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "PPTAgent: Arbitrary File Write via `save_generated_slides`",
+   "url": "https://osv.dev/vulnerability/GHSA-pxhg-7xr2-w7xg",
+   "published": "2026-05-05T18:57:31Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.1.36"
+  },
+  {
+   "id": "GHSA-vmf9-xx9w-86wx",
+   "aliases": [
+    "GHSA-vmf9-xx9w-86wx",
+    "CVE-2026-57112",
+    "PYSEC-2026-3521",
+    "PYSEC-2026-3534"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonaiagents",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "PraisonAI ToolsMCPServer legacy SSE transport accepts attacker Host/Origin and exposes registered tools",
+   "url": "https://osv.dev/vulnerability/GHSA-vmf9-xx9w-86wx",
+   "published": "2026-06-18T13:52:40Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.6.59;4.6.59"
+  },
+  {
+   "id": "GHSA-4qq2-2j2x-x62c",
+   "aliases": [
+    "GHSA-4qq2-2j2x-x62c",
+    "CVE-2026-57134"
+   ],
+   "ecosystem": "npm",
+   "package": "praisonai",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "npm PraisonAI MCPSecurity Basic/OAuth authentication policies accept invalid credentials without validation",
+   "url": "https://osv.dev/vulnerability/GHSA-4qq2-2j2x-x62c",
+   "published": "2026-06-18T14:25:17Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.7.2"
+  },
+  {
+   "id": "GHSA-8w9j-hc3g-3g7f",
+   "aliases": [
+    "GHSA-8w9j-hc3g-3g7f",
+    "CVE-2026-34939",
+    "PYSEC-2026-2907"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "PraisonAI Has ReDoS via Unvalidated User-Controlled Regex in MCPToolIndex.search_tools()",
+   "url": "https://osv.dev/vulnerability/GHSA-8w9j-hc3g-3g7f",
+   "published": "2026-04-01T23:21:08Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.5.90"
+  },
+  {
+   "id": "GHSA-98f9-fqg5-hvq5",
+   "aliases": [
+    "GHSA-98f9-fqg5-hvq5",
+    "CVE-2026-34953",
+    "PYSEC-2026-468"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "PraisonAI Has Authentication Bypass via OAuthManager.validate_token()",
+   "url": "https://osv.dev/vulnerability/GHSA-98f9-fqg5-hvq5",
+   "published": "2026-04-01T23:29:01Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.5.97"
+  },
+  {
+   "id": "GHSA-9cr9-25q5-8prj",
+   "aliases": [
+    "GHSA-9cr9-25q5-8prj",
+    "CVE-2026-47394",
+    "PYSEC-2026-2908"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "PraisonAI vulnerable to unauthenticated arbitrary file read via MCP workflow.show, workflow.validate, deploy.validate",
+   "url": "https://osv.dev/vulnerability/GHSA-9cr9-25q5-8prj",
+   "published": "2026-05-29T22:30:58Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.6.40"
+  },
+  {
+   "id": "GHSA-9mqq-jqxf-grvw",
+   "aliases": [
+    "GHSA-9mqq-jqxf-grvw",
+    "CVE-2026-44336",
+    "PYSEC-2026-472"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "PraisonAI MCP `tools/call` path-traversal => RCE via Python `.pth` injection",
+   "url": "https://osv.dev/vulnerability/GHSA-9mqq-jqxf-grvw",
+   "published": "2026-05-11T13:58:47Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.6.34"
+  },
+  {
+   "id": "GHSA-9qhq-v63v-fv3j",
+   "aliases": [
+    "GHSA-9qhq-v63v-fv3j",
+    "CVE-2026-41497",
+    "PYSEC-2026-473"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "PraisonAI has an incomplete fix for CVE-2026-34935 - OS Command Injection",
+   "url": "https://osv.dev/vulnerability/GHSA-9qhq-v63v-fv3j",
+   "published": "2026-04-17T22:23:50Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.5.149"
+  },
+  {
+   "id": "GHSA-hc5v-gxvj-58wh",
+   "aliases": [
+    "GHSA-hc5v-gxvj-58wh",
+    "CVE-2026-61427",
+    "PYSEC-2026-4257"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "PraisonAI: MCP HTTP-stream transport is unauthenticated by default, exposing tool enumeration and an unvalidated tool-call surface",
+   "url": "https://osv.dev/vulnerability/GHSA-hc5v-gxvj-58wh",
+   "published": "2026-10-08T21:58:42Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.6.78"
+  },
+  {
+   "id": "GHSA-j4f3-55x4-r6q2",
+   "aliases": [
+    "GHSA-j4f3-55x4-r6q2",
+    "CVE-2026-57139"
+   ],
+   "ecosystem": "npm",
+   "package": "praisonai",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "npm PraisonAI MCPServer exposes unauthenticated HTTP tools/call",
+   "url": "https://osv.dev/vulnerability/GHSA-j4f3-55x4-r6q2",
+   "published": "2026-06-18T14:26:48Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.7.2"
+  },
+  {
+   "id": "GHSA-p75f-6fp4-p57w",
+   "aliases": [
+    "GHSA-p75f-6fp4-p57w",
+    "CVE-2026-57124",
+    "PYSEC-2026-3517"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "PraisonAI: Missing Authentication for Critical Function and Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in praisonai",
+   "url": "https://osv.dev/vulnerability/GHSA-p75f-6fp4-p57w",
+   "published": "2026-06-18T13:58:14Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.6.59"
+  },
+  {
+   "id": "GHSA-pj2r-f9mw-vrcq",
+   "aliases": [
+    "GHSA-pj2r-f9mw-vrcq",
+    "CVE-2026-40159",
+    "PYSEC-2026-2918"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "PraisonAI Vulnerable to Sensitive Environment Variable Exposure via Untrusted MCP Subprocess Execution",
+   "url": "https://osv.dev/vulnerability/GHSA-pj2r-f9mw-vrcq",
+   "published": "2026-04-10T19:28:15Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.5.128"
+  },
+  {
+   "id": "GHSA-pvph-5j39-v8qc",
+   "aliases": [
+    "GHSA-pvph-5j39-v8qc",
+    "CVE-2026-55529",
+    "CVE-2026-55532",
+    "GHSA-wj6g-v78p-6fx3",
+    "PYSEC-2026-3892",
+    "PYSEC-2026-3896"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "PraisonAI: Origin-validation bypass (startswith prefix match) enables unauthenticated cross-site request forgery against the PraisonAI MCP HTTP server",
+   "url": "https://osv.dev/vulnerability/GHSA-pvph-5j39-v8qc",
+   "published": "2026-08-25T15:18:20Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.6.58"
+  },
+  {
+   "id": "GHSA-wv94-5qcp-6m36",
+   "aliases": [
+    "GHSA-wv94-5qcp-6m36",
+    "CVE-2026-55531",
+    "PYSEC-2026-3897"
+   ],
+   "ecosystem": "PyPI",
+   "package": "praisonai",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "PraisonAI MCP HTTP server has unauthenticated unbounded session accumulation (memory exhaustion; session TTL never enforced)",
+   "url": "https://osv.dev/vulnerability/GHSA-wv94-5qcp-6m36",
+   "published": "2026-08-25T14:34:28Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.6.58"
+  },
+  {
+   "id": "GHSA-mw6r-2hvm-4rp2",
+   "aliases": [
+    "GHSA-mw6r-2hvm-4rp2",
+    "CVE-2026-55546",
+    "PYSEC-2026-3915"
+   ],
+   "ecosystem": "PyPI",
+   "package": "qwed-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "qwed-mcp has Unsafe SymPy `parse_expr()` Remote Code Execution via Unsanitized Math Expression Input",
+   "url": "https://osv.dev/vulnerability/GHSA-mw6r-2hvm-4rp2",
+   "published": "2026-08-25T15:26:43Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.2.1"
+  },
+  {
+   "id": "GHSA-hwpp-h97w-2h3j",
+   "aliases": [
+    "GHSA-hwpp-h97w-2h3j",
+    "CVE-2026-49988"
+   ],
+   "ecosystem": "npm",
+   "package": "repomix",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "repomix: attach_packed_output can bypass file-read secret scanning for supported local files",
+   "url": "https://osv.dev/vulnerability/GHSA-hwpp-h97w-2h3j",
+   "published": "2026-07-01T19:01:41Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.14.1"
+  },
+  {
+   "id": "GHSA-rwc2-f344-q6w6",
+   "aliases": [
+    "GHSA-rwc2-f344-q6w6",
+    "CVE-2025-69256"
+   ],
+   "ecosystem": "npm",
+   "package": "serverless",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "serverless MCP Server vulnerable to Command Injection in list-projects tool",
+   "url": "https://osv.dev/vulnerability/GHSA-rwc2-f344-q6w6",
+   "published": "2025-12-31T22:05:32Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "4.29.3"
+  },
+  {
+   "id": "GHSA-4j28-22qp-rjcf",
+   "aliases": [
+    "GHSA-4j28-22qp-rjcf",
+    "CVE-2026-7206",
+    "PYSEC-2026-3074"
+   ],
+   "ecosystem": "PyPI",
+   "package": "sqlite-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "sqlite-mcp has an Injection issue",
+   "url": "https://osv.dev/vulnerability/GHSA-4j28-22qp-rjcf",
+   "published": "2026-04-28T03:31:29Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-49m4-vp58-wgc9",
+   "aliases": [
+    "GHSA-49m4-vp58-wgc9",
+    "CVE-2026-55071",
+    "PYSEC-2026-3700"
+   ],
+   "ecosystem": "PyPI",
+   "package": "stata-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
+   "url": "https://osv.dev/vulnerability/GHSA-49m4-vp58-wgc9",
+   "published": "2026-08-12T19:23:38Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.19.0"
+  },
+  {
+   "id": "GHSA-4p62-hqp5-g644",
+   "aliases": [
+    "GHSA-4p62-hqp5-g644",
+    "CVE-2026-47708",
+    "PYSEC-2026-544"
+   ],
+   "ecosystem": "PyPI",
+   "package": "stata-mcp",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "MCP-for-Stata: Command injection via log_file_name parameter in Stata command wrapper",
+   "url": "https://osv.dev/vulnerability/GHSA-4p62-hqp5-g644",
+   "published": "2026-06-04T21:00:42Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.17.3"
+  },
+  {
+   "id": "GHSA-jpcj-7wfg-mqxv",
+   "aliases": [
+    "GHSA-jpcj-7wfg-mqxv",
+    "CVE-2026-31040",
+    "PYSEC-2026-3076"
+   ],
+   "ecosystem": "PyPI",
+   "package": "stata-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "stata-mcp has insufficient validation of user-supplied Stata do-file content that can lead to command execution",
+   "url": "https://osv.dev/vulnerability/GHSA-jpcj-7wfg-mqxv",
+   "published": "2026-04-08T18:34:06Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "1.13.0"
+  },
+  {
+   "id": "GHSA-cw73-5f7h-m4gv",
+   "aliases": [
+    "GHSA-cw73-5f7h-m4gv",
+    "CVE-2026-30625",
+    "PYSEC-2026-559"
+   ],
+   "ecosystem": "PyPI",
+   "package": "upsonic",
+   "severity": "CRITICAL",
+   "category": "vulnerability",
+   "summary": "Upsonic: remote code execution vulnerability in its MCP server/task creation functionality",
+   "url": "https://osv.dev/vulnerability/GHSA-cw73-5f7h-m4gv",
+   "published": "2026-04-15T18:31:57Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.72.0"
+  },
+  {
+   "id": "GHSA-vrxg-gm77-7q5g",
+   "aliases": [
+    "GHSA-vrxg-gm77-7q5g",
+    "CVE-2026-48989",
+    "PYSEC-2026-3425"
+   ],
+   "ecosystem": "PyPI",
+   "package": "windows-mcp",
+   "severity": "HIGH",
+   "category": "vulnerability",
+   "summary": "Windows-MCP: HTTP transports expose unauthenticated PowerShell control with wildcard CORS",
+   "url": "https://osv.dev/vulnerability/GHSA-vrxg-gm77-7q5g",
+   "published": "2026-05-21T16:46:02Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "fixed": "0.7.5"
+  },
+  {
+   "id": "GHSA-3r68-x3xc-rxpg",
+   "aliases": [
+    "GHSA-3r68-x3xc-rxpg",
+    "CVE-2026-43901",
+    "PYSEC-2026-3426"
+   ],
+   "ecosystem": "PyPI",
+   "package": "wireshark-mcp",
+   "severity": "MEDIUM",
+   "category": "vulnerability",
+   "summary": "wireshark-mcp vulnerable to arbitrary file write via export_objects when WIRESHARK_MCP_ALLOWED_DIRS is not configured",
+   "url": "https://osv.dev/vulnerability/GHSA-3r68-x3xc-rxpg",
+   "published": "2026-05-05T20:15:12Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)",
+   "affected": "<= 1.1.5"
+  },
+  {
+   "id": "GHSA-84fx-pwf3-7777",
+   "aliases": [
+    "GHSA-84fx-pwf3-7777",
+    "CVE-2026-2178"
+   ],
+   "ecosystem": "npm",
+   "package": "xcode-mcp-server",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "xcode-mcp-server vulnerable to Command Injection",
+   "url": "https://osv.dev/vulnerability/GHSA-84fx-pwf3-7777",
+   "published": "2026-02-08T21:30:18Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  },
+  {
+   "id": "GHSA-gc8w-x73w-p4rh",
+   "aliases": [
+    "GHSA-gc8w-x73w-p4rh",
+    "CVE-2026-7600"
+   ],
+   "ecosystem": "npm",
+   "package": "yii2-mcp-server",
+   "severity": "LOW",
+   "category": "vulnerability",
+   "summary": "yii2-mcp-server has a Command Injection Issue",
+   "url": "https://osv.dev/vulnerability/GHSA-gc8w-x73w-p4rh",
+   "published": "2026-05-02T03:31:13Z",
+   "source": "AKRENON MCP Security Vulnerabilities Dataset (CC BY 4.0)"
+  }
+ ]
+}
