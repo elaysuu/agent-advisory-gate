@@ -68,3 +68,13 @@ npm run build              # bundles src/ -> dist/ with ncc (no runtime npm inst
 npm run refresh-data
 ```
 MIT licensed (code). See [LICENSE](LICENSE) for data terms.
+
+## Also available as
+
+- VS Code / Open VSX extension: https://open-vsx.org/extension/elaysuu/agent-package-advisory
+- RapidAPI (HTTP API): https://rapidapi.com/Elayosetrov/api/agent-package-advisory-check
+- Apify actor: https://apify.com/crimson_goby/osv-package-checker
+
+
+
+
